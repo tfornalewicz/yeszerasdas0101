@@ -68,7 +68,8 @@
 	<outfit type="0" looktype="973" name="Retro Hunter" premium="yes" unlocked="no" enabled="yes" />
 	<outfit type="0" looktype="975" name="Retro Citizen" premium="yes" unlocked="no" enabled="yes" />
 	<outfit type="0" looktype="1020" name="New Addon" premium="yes" unlocked="no" enabled="yes" />
-
+	<outfit type="0" looktype="1023" name="New Addon 2" premium="yes" unlocked="no" enabled="yes" />
+	
 	<!-- Male outfits -->
 	<outfit type="1" looktype="128" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
 	<outfit type="1" looktype="129" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
@@ -137,4 +138,5 @@
 	<outfit type="1" looktype="972" name="Retro Hunter" premium="yes" unlocked="no" enabled="yes" />
 	<outfit type="1" looktype="974" name="Retro Citizen" premium="yes" unlocked="no" enabled="yes" />
 	<outfit type="1" looktype="1021" name="New Addon" premium="yes" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1024" name="New Addon 2" premium="yes" unlocked="no" enabled="yes" />
 </outfits>

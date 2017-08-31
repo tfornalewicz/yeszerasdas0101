@@ -31173,9 +31173,6 @@
 	<spawn centerx="5939" centery="1315" centerz="8" radius="3">
 		<monster name="Minotaur Archer" x="-3" y="3" z="8" spawntime="90" />
 	</spawn>
-	<spawn centerx="5953" centery="1315" centerz="8" radius="3">
-		<monster name="Minotaur" x="-3" y="3" z="8" spawntime="90" />
-	</spawn>
 	<spawn centerx="5960" centery="1315" centerz="8" radius="3">
 		<monster name="Minotaur Archer" x="1" y="0" z="8" spawntime="90" />
 		<monster name="Minotaur Guard" x="2" y="1" z="8" spawntime="90" />
@@ -31220,12 +31217,6 @@
 	</spawn>
 	<spawn centerx="5946" centery="1322" centerz="8" radius="3">
 		<monster name="Minotaur Archer" x="0" y="-2" z="8" spawntime="90" />
-		<monster name="Minotaur Archer" x="3" y="-1" z="8" spawntime="90" />
-		<monster name="Minotaur" x="3" y="3" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="5953" centery="1322" centerz="8" radius="3">
-		<monster name="Minotaur Archer" x="-3" y="-3" z="8" spawntime="90" />
-		<monster name="Minotaur" x="2" y="3" z="8" spawntime="90" />
 	</spawn>
 	<spawn centerx="5960" centery="1322" centerz="8" radius="3">
 		<monster name="Minotaur" x="-1" y="-2" z="8" spawntime="90" />

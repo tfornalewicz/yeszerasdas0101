@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mutanted" nameDescription="a mutanted" race="blood" experience="1500" speed="200" manacost="0">
+	<health now="2400" max="2400" />
+	<look type="323" corpse="9107" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1"  />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="50" poison="160" />
+		<attack name="death" interval="2000" chance="16" length="3" spread="2" target="0" min="-70" max="-160">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="20" target="1" lenght="1" spread="0" min="-280" max="-480">
+			<attribute key="areaeffect" value="greenspark" />
+		</attack>
+		<attack name="speed" interval="2000" chance="13" target="1" range="7" speedchange="-700" duration="30000">
+			<attribute key="areaEffect" value="explosion" />
+			<attribute key="areaEffect" value="stun" />
+		</attack>
+		<attack name="earth" interval="2000" chance="17" target="1" range="7" min="-10" max="-150">
+			<attribute key="areaEffect" value="carniphila" />
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="speed" interval="2000" chance="15" speedchange="420" duration="3000">
+			<attribute key="areaEffect" value="greenbubble" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="20" />
+		<element holyPercent="-25" />
+	</elements>
+	<immunities>
+		<immunity death="1" />
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity lifedrain="1" />
+		<immunity drunk="1" />
+		<immunity drown="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Take that creature off my back!! I can fell it!" />
+		<voice sentence="HEEEEEEEELP!" />
+		<voice sentence="You will be the next infected one... GRAAAAAAAAARRR!" />
+		<voice sentence="Science... is a curse." />
+		<voice sentence="Run as fast as you can." />
+		<voice sentence="Oh by the gods! What is this... aaaaaargh!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="280" chance="99000" /><!-- gold coin -->
+		<item id="3976" countmax="2" chance="7110" /><!-- worm -->
+		<item id="2226" chance="10050" /><!-- fishbone -->
+		<item id="2161" chance="4980" /><!-- strange talisman -->
+		<item id="11225" chance="79940" /><!-- Mutated Flesh -->
+		<item id="9808" chance="190" /><!-- rusty armor -->
+		<item id="2801" chance="4200" /><!-- fern -->
+		<item id="2170" chance="70" /><!-- silver amulet -->
+		<item id="2515" chance="68000" /><!-- guardian shield -->
+		<item id="7454" chance="16700" /><!-- glorius axe -->
+		<item id="2150" countmax="4" chance="79000" /><!-- small amethyst -->
+	</loot>
+</monster>

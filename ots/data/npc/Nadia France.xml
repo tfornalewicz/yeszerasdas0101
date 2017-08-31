@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nadia France" script="nadia_france.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="279" head="108" body="114" legs="114" feet="114" addons="2" />
+	<parameters>
+		<parameter key="message_greet" value="Salem Alejkum |PLAYERNAME|. Sytuacja na pustyni stabilna." />
+		<parameter key="message_decline" value="A wez idz, szkoda Ci |TOTALCOST| na takie precjoza..." />
+	</parameters>
+</npc>

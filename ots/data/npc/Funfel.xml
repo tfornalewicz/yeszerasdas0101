@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Funfel" script="funfel.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="154" head="114" body="49" legs="125" feet="0" addons="2" />
+	<parameters>
+		<parameter key="message_greet" value="Hej hej |PLAYERNAME|. Tylko naturalne plyny." />
+		<parameter key="message_decline" value="A wez idz, szkoda Ci |TOTALCOST| na takie precjoza..." />
+	</parameters>
+</npc>

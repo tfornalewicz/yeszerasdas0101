@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Barrack" script="barrack.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="289" head="114" body="114" legs="114" feet="114" addons="3" />
+	<parameters>		
+		<parameter key="message_greet" value="Uga Buga, |PLAYERNAME|. Ja roznosic listy i paczki. Jesli ty chciec kupic, napisz 'trade'." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel,2595,15;letter,2597,10;label,2599,1;" />
+
+	</parameters>
+</npc>

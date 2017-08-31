@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Oldrak" script="Oldrak.lua" walkinterval="2000" floorchange="0">
+  	<health now="150" max="150" />
+	<look type="57" head="115" body="113" legs="31" feet="38" addons="3" />
+	<parameters>
+		<parameter key="message_greet" value="Witaj, |PLAYERNAME|! Ostatnio rzadko ktos mnie odwiedza." />
+		<parameter key="message_walkaway" value="Uwazaj na siebie." />
+		<parameter key="message_farewell" value="Zegnaj, |PLAYERNAME|!" />
+	</parameters>
+</npc>

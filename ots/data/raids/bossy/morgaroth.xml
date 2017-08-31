@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<!--Announcements-->
+	<announce delay="1000" type="Event" message="Dziwne tapniecia uslyszec mozna na polnocy pustyni." />
+	<announce delay="360000" type="Event" message="Obecnosc mitycznego zla wyczuc mozna w poblizu wygaslego wulkanu na pustyni." />
+	<announce delay="720000" type="Event" message="Mityczne zlo uaktywniajac wulkan ujawnilo sie w podziemiach pod putynia." />
+<!--Single Spawns-->
+	<areaspawn delay="360000" fromx="6713" fromy="1143" fromz="10" tox="6749" toy="1173" toz="10">
+		<monster name="Demon" amount="7" />
+	</areaspawn>
+	<singlespawn delay="720000" name="Morgaroth" x="6728" y="1158" z="10" />
+</raid>

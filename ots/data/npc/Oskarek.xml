@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Oskarek" script="oskarek.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="136" head="116" body="94" legs="94" feet="0" addons="0" />
+  <parameters>
+		<parameter key="message_greet" value="XXXX X XDDD, XDDD XD DXD  D XD DD  XXXDXXX DD XX X XXX DDXX DXD DDD XDD XD DX XX X XXDDXX" />
+		<parameter key="message_farewell" value="XDDX XD!" />
+	</parameters>
+</npc>

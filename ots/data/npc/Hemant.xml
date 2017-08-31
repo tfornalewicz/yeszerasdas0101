@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hemant" script="hemant.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="153" head="108" body="0" legs="114" feet="94" addons="2" />
+	<parameters>
+		<parameter key="message_greet" value="Czesc, ja jestem Hemant. Sprzedaje akcesoria pomagajace w kopaniu grobow i zwiedzaniu krypt. Napisz 'trade', zeby sie ze mna powymieniac." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="machete,2420,40;sickle,2405,8;crowbar,2416,260;fishing rod,2580,150;worm,3976,1;backpack,1988,20;rope,2120,50;scythe,2550,50;pick,2553,50;shovel,2554,50;rust remover,9930,100;blue backpack,2002,20;golden backpack,2004,20;green backpack,1998,20;grey backpack,2003,20;orange backpack,10519,20;purple backpack,2001,20;red backpack,2000,20;yellow backpack,1999,20;" />
+		<parameter key="shop_sellable" value="crowbar,2416,190;fishing rod,2580,65;worm,3976,1;backpack,1988,5;rope,2120,20;scythe,2550,20;pick,2553,20;shovel,2554,20;rust remover,9930,45" />
+	</parameters>	
+</npc>

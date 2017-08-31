@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zamulosh" nameDescription="a zamulosh" race="blood" experience="30000" speed="525" manacost="200">
+	<health now="250000" max="250000" />
+	<look type="862" head="17" body="12" legs="73" feet="92" addons="0" corpse="25151" />
+	<targetchange interval="2000" chance="25" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="60" />
+	</flags>
+	<script>
+   <event name="Zamulosh"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="90" />
+		<attack name="lifedrain" interval="2000" chance="20" length="8" spread="0" min="-200" max="-1000">
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>		
+		<attack name="lifedrain" interval="2000" chance="15" radius="6" target="0" min="-100" max="-450">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="death" interval="2000" chance="10" length="8" spread="3" min="-100" max="-550">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+	</attacks>
+	<defenses armor="160" defense="160">
+		<defense name="invisible" interval="1000" chance="23" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="5">
+		<summon name="Zamulosh Summom" interval="1000" chance="25" max="5" />
+		
+	</summons>
+	<voices interval="2000" chance="7">
+		<voice sentence="I AM ZAMULOSH!" yell="1" />
+	</voices>
+	<loot capacity="5000">
+	<item id="2148" countmax="200" chance="9000" /> <!-- gold coin -->	
+	<item id="2152" countmax="25" chance="99000" /> <!-- platinum coin -->
+	
+	<item id="25172" chance="99900" /> <!-- silver token -->
+
+	<item id="25411" chance="500" /> <!-- Book of Lies -->
+	<item id="11355" chance="6000" /> <!-- spellawear -->
+	<item id="25523" chance="3500" /> <!-- Rift Crossbow -->
+	<item id="25382" chance="3500" /> <!-- Rift shield -->
+	<item id="8878" chance="9000" /> <!-- crystalline armor -->
+	<item id="2445" chance="20000" /> <!-- crystal mace -->
+	<item id="25418" chance="500" /> <!-- maimer -->
+
+	    
+	<item id="2169" chance="25000" /> <!-- Time Ring -->
+	<item id="2165" chance="9000" /> <!-- Stealth Ring -->
+	<item id="2214" chance="9000" /> <!-- Ring of Healing -->
+
+	<item id="6500" chance="9000" /> <!-- Demonic Essence -->
+
+	<item id="2154" chance="15000" /> <!-- Yellow Gem -->
+	<item id="2155" chance="12000" /> <!-- Green Gem -->
+	<item id="2158" chance="10500" /> <!-- Blue Gem -->
+	<item id="2147" countmax="5" chance="28500" /> <!-- Small Ruby -->
+	<item id="2146" countmax="5" chance="29500" /> <!-- Small Sapphire -->
+	<item id="2150" countmax="5" chance="29500" /> <!-- Small ame -->
+	    
+	<item id="8473" countmax="10" chance="58500" /> <!-- Ultimate Health Potion -->
+	<item id="7590" countmax="10" chance="59500" /> <!-- Great Mana Potion -->
+	<item id="8472" countmax="10" chance="59500" /> <!-- gsp
+ -->
+	<item id="18416" countmax="6" chance="17500" /> <!-- Green Crystal Splinter -->
+	<item id="18417" countmax="6" chance="13500" /> <!-- Brown Crystal Splinter -->
+	<item id="18418" countmax="6" chance="17500" /> <!-- Blue Crystal Splinter -->
+	    
+	</loot>
+</monster>

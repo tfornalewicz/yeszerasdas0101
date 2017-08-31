@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Stary Anona" script="stary_anona.lua" walkinterval="2000" floorchange="0" speechbubble="0">
+    <health now="100" max="100" />
+    <look type="129" head="97" body="79" legs="87" feet="115" addons="1" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			fishing rod,2580,200;
+			worm,3976,4;
+			potrawa rybacka,10001,10000;" />
+		<parameter key="shop_sellable" value="marlin,7963,250;
+		pstrag,7158,130;
+		szczupak,2669,49;
+		okon,7159,25;" />
+	</parameters>
+</npc>

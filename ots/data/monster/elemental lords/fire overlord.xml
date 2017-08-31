@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Overlord" nameDescription="a fire overlord" race="fire" experience="2800" speed="330" manacost="0">
+	<health now="4000" max="4000" />
+	<look type="243" corpse="8964" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="80" attack="100" fire="650" />
+		<attack name="fire overlord paralyze" interval="2000" chance="15"/>
+		<attack name="fire" interval="2000" chance="19" length="8" spread="0" min="-150" max="-1000"/>
+		<attack name="fire overlord soulfire" interval="2000" chance="13" range="7"/>
+	</attacks>
+	<defenses armor="45" defense="59">
+		<defense name="effect" interval="2000" chance="32">
+			<attribute key="areaEffect" value="firearea"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="1" />
+		<element deathPercent="20" />
+		<element energyPercent="20" />
+		<element earthPercent="80" />
+		<element icePercent="-25" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+	</immunities>
+	<loot>
+		<item id="8304" chance="100000" /><!-- eternal flames -->
+		<item id="10553" chance="100000" /><!-- fiery heart -->
+		<item id="2148" countmax="75" chance="71000" /><!-- gold coin -->
+		<item id="2152" countmax="3" chance="51000" /><!-- platinum coin -->
+		<item id="7899" chance="819" /><!-- magma coat -->
+	</loot>
+</monster>

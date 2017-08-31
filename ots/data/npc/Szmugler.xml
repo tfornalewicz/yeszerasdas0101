@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Szmugler" script="statek_szmugler.lua" walkinterval="2500" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="134" head="95" body="57" legs="113" feet="115" />
+	<parameters>
+		<parameter key="message_greet" value="Pssst... cicho. Jesli masz klopoty, ten karakan z gory nie chce Cie przewiezc, a musisz gdzies {plynac} to mam nowa dostawe uranu, z ktorym mozesz sie zabrac. Oczywiscie, za pewna cene..." />
+		<parameter key="message_farewell" value="Uwazaj na siebie!" />
+		<parameter key="message_walkaway" value="Powodzenia!" />
+	</parameters>
+</npc>

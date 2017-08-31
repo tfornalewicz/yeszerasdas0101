@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Miroslaw" script="miroslaw.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100"/>
+	<look type="131" head="57" body="76" legs="76" feet="95" addons="3" mount="437" />
+	<parameters>
+    <parameter key="message_greet" value="Witam w stolicy. Jak moge pomoc?" />
+		<parameter key="message_walkaway" value="Ech..." />
+		<parameter key="message_farewell" value="W imie Krula!" />
+	</parameters>
+</npc>

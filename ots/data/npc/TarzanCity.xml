@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tarzan" script="TarzanCity.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="132" head="19" body="10" legs="38" feet="95" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Elo, niestety trudne czasy zmusily mnie aby dorabiac plywajac lodka. Moge zabrac cie w poblize miejsca gdzie sie wychowalem- obozowiska malp." />
+		<parameter key="message_farewell" value="Milego dnia!" />
+		<parameter key="message_walkaway" value="Zegnaj." />
+	</parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Arena" script="arena.lua" walkinterval="2500" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="154" head="120" body="5" legs="5" feet="114" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Witaj dzielny wojowniku. Chcesz wejsc na {arene}?" />
+		<parameter key="message_farewell" value="Uwazaj na siebie!" />
+		<parameter key="message_walkaway" value="Powodzenia!" />
+	</parameters>
+</npc>

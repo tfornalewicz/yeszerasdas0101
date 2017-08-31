@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "url": "libeay32.dll.lzma",
+      "unpackedhash": "a38203ef137e7da1218e03630b88181c8e2bde1df78a71f68e0f1818b9e7e042",
+      "unpackedsize": 1381552,
+      "packedhash": "d9d7fa26a2926b7ce64571aba135c46c38bcad368806a10dc797635699c20e9a",
+      "packedsize": 545440,
+      "localfile": "libeay32.dll"
+    },
+    {
+      "url": "ssleay32.dll.lzma",
+      "unpackedhash": "b5239002026527f9a0716fb5016be66ac5ea054939b4d3bb473ae29720974bef",
+      "unpackedsize": 349872,
+      "packedhash": "a0a7ef051712ca963a3cc2de086349c882994ddd93d62dae1bdf203cfb730f0f",
+      "packedsize": 151381,
+      "localfile": "ssleay32.dll"
+    },
+    {
+      "executable": true,
+      "url": "Tibia.exe.lzma",
+      "unpackedhash": "735595e20be5415c1035676c1ce878aaab976fda29626facbfbd2e5bfa14d467",
+      "unpackedsize": 11169456,
+      "packedhash": "e68977c20757c180ac1fd6fe0732cbadff06b7379e0fe14141e6952c95a42c59",
+      "packedsize": 4559439,
+      "localfile": "Tibia.exe"
+    },
+    {
+      "url": "uninst.exe.lzma",
+      "unpackedhash": "518304a6f8840be34b6516a5541952a0d7abad70e57fb163e418fe6d904e39f8",
+      "unpackedsize": 113515,
+      "packedhash": "513dca8235f816209612b0ec999b839b35328c9f64b09bb499e93414c0306f9a",
+      "packedsize": 87502,
+      "localfile": "uninst.exe"
+    },
+    {
+      "url": "3rdpartylicences/apache-v2.txt.lzma",
+      "unpackedhash": "f1db14746c8b94513787e07010d22dee5e370850cdd14bce705c273ff65786dd",
+      "unpackedsize": 9196,
+      "packedhash": "cfe8188525853291939042e81e9e0185faf9640f7bb0dd48f8feb1e17c625a42",
+      "packedsize": 3245,
+      "localfile": "3rdpartylicences/apache-v2.txt"
+    },
+    {
+      "url": "3rdpartylicences/openssl.txt.lzma",
+      "unpackedhash": "67932d8f02f3a2ec11ed5b2337420bd8912207613086727aba9c01226552870b",
+      "unpackedsize": 6046,
+      "packedhash": "347cac417696d89a9b1a0491f84285cda5aa192e9ed3d5088d80a4a1fdfdec1b",
+      "packedsize": 2044,
+      "localfile": "3rdpartylicences/openssl.txt"
+    },
+    {
+      "url": "3rdpartylicences/qt-3rdparty.txt.lzma",
+      "unpackedhash": "529e6be52de4163b001767aa027d243ea502190a6047347dcb27bf5dedde8246",
+      "unpackedsize": 86670,
+      "packedhash": "07001705a1be5480d8290f991dc9d7a96fe33d3ff49197c6cfeb78f7a9141709",
+      "packedsize": 14834,
+      "localfile": "3rdpartylicences/qt-3rdparty.txt"
+    }
+  ],
+  "executable": "Tibia.exe",
+  "version": "5486"
+}

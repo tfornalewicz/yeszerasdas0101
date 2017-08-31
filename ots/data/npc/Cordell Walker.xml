@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Cordell Walker" script="cordel_walker.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="289" head="96" body="78" legs="114" feet="97" addons="3" mount="392"/>
+  <parameters>
+		<parameter key="message_greet" value="Hej |PLAYERNAME|. Jak nie wiesz co za brama to ci moge sprzedac te {Informacje}" />
+		<parameter key="message_farewell" value="Do widzenia!" />
+		<parameter key="message_walkaway" value="Odmeldowuje sie..." />
+	</parameters>
+</npc>

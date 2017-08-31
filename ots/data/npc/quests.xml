@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Taski" startstorageid="200" startstoragevalue="0">
+		<mission name="Informacje odnosnie taskow" storageid="200" startvalue="0" endvalue="10000" description="Za wykonywanie taskow dostajesz nagrody w postaci: expa, pieniedzy, osiagniec do CV oraz mozliwosci walki z bossami.\n\nGracz moze miec aktywne 3 zadania na raz." />
+		<mission name="Rotwormy" storageid="201" startvalue="0" endvalue="150" description="Liczba zabitych rotwormow: |STATE|/150." />
+		<mission name="Starcie z bossem White Pale" storageid="10001" startvalue="1" endvalue="2" description="Odnajdz legowisko White Pale pod MirkoTown." />
+		<mission name="Minotaury" storageid="202" startvalue="0" endvalue="500" description="Liczba zabitych minotaurow: |STATE|/500." />
+		<mission name="Starcie z bossem The Horned Fox" storageid="10002" startvalue="1" endvalue="2" description="---" />
+		<mission name="Krokodyle" storageid="203" startvalue="0" endvalue="200" description="Liczba zabitych krokodyli: |STATE|/200." />
+		<mission name="Starcie z bossem The Snapper" storageid="10003" startvalue="1" endvalue="2" description="Jego legowisko podobno znajduje sie pod wodospadem, a w okolicy kreci sie sporo krokodyli." />
+		<mission name="Tarantule" storageid="204" startvalue="0" endvalue="300" description="Liczba zabitych tarantuli: |STATE|/300." />
+		<mission name="Starcie z bossem Hide" storageid="10004" startvalue="1" endvalue="2" description="W pewnych ruinach na zachod Kongo zaleglo sie sporo tarantul, Hide sie tam schowal. " />
+		<mission name="Carniphile" storageid="205" startvalue="0" endvalue="150" description="Liczba zabitych Carniphili: |STATE|/150." />
+		<mission name="Starcie z bossem Deathbine" storageid="10005" startvalue="1" endvalue="2" description="Deathbine ulokowal sie gdzies przy skalach na bambusowej polanie, ktora jest siedliskiem Terror Birdow oraz Carniphili." />
+		<mission name="blad" storageid="206" startvalue="0" endvalue="300" description="Blad! Zglos administracji" />
+		<mission name="blad" storageid="10006" startvalue="1" endvalue="2" description="Blad! Zglos administracji" />
+		<mission name="Lodowe Golemy" storageid="207" startvalue="0" endvalue="200" description="Liczba zabitych lodowych golemow: |STATE|/200." />
+		<mission name="Starcie z bossem Shardhead" storageid="10007" startvalue="1" endvalue="2" description="Teleport do komnaty Shardheada znajduje sie na polnocy Sybiru, w okolicy kreca sie Crystal Spidery oraz Ice Golemy." />
+		<mission name="Zmutowane Szczury" storageid="208" startvalue="0" endvalue="300" description="Liczba zabitych zmutowanych szczurow: |STATE|/300." />
+		<mission name="Starcie z bossem Esmeralda" storageid="10008" startvalue="1" endvalue="2" description="Wejscie do kryjowki Esmeraldy znajduje sie gdzies na skalach zamieszkalych przez zmutowane sczury w centrum stepow." />
+		<mission name="Lodowe Pajeczaki" storageid="209" startvalue="0" endvalue="250" description="Liczba zabitych lodowych pajeczakow: |STATE|/250." />
+		<mission name="Starcie z bossem Bloodweb" storageid="10009" startvalue="1" endvalue="2" description="Legowisko Bloodweba znajduje sie na pewnych skalach lezacych na polnocy Sybiru." />
+		<mission name="Skarabeusze" storageid="210" startvalue="0" endvalue="250" description="Liczba zabitych skarabeuszy: |STATE|/250." />
+		<mission name="Starcie z bossem Fleshcrawler" storageid="10010" startvalue="1" endvalue="2" description="Najgrozniejszy z skarabeuszy swoje legowisko posiada pod wysuszonymi polami na poludniu stepow." />
+		<mission name="Kosciane Bestie" storageid="211" startvalue="0" endvalue="250" description="Liczba zabitych koscianych bestii: |STATE|/250." />
+		<mission name="Starcie z bossem Ribstride" storageid="10011" startvalue="1" endvalue="2" description="Podobno wejscia do jego kryjowki strzega pustynne Wyrmy, jednak zdaje sie, ze to tylko pogloski." />
+		<mission name="Olbrzymie Pajeczaki" storageid="212" startvalue="0" endvalue="450" description="Liczba zabitych olbrzymich pajeczakow: |STATE|/450." />
+		<mission name="Starcie z bossem The Old Widow" storageid="10012" startvalue="1" endvalue="2" description="Na poludnie od Knurowa zaleglo sie sporo pajakow, byc moze tam znajduje sie najgrozniejszy z nich." />
+		<mission name="Quary" storageid="213" startvalue="0" endvalue="400" description="Liczba zabitych Quarow: |STATE|/400." />
+		<mission name="Starcie z bossem Thul" storageid="10013" startvalue="1" endvalue="2" description="Na wyspe, gdzie przesiaduje Thul trzeba dostac sie przeplywajac statkiem." />
+		<mission name="Wilkolaki" storageid="214" startvalue="0" endvalue="200" description="Liczba zabitych wilkolakow: |STATE|/200." />
+		<mission name="Starcie z bossem Hemming" storageid="10014" startvalue="1" endvalue="2" description="W jaskiniach za miastem w ktorym strasza nocni przesladowcy przesiaduja wilkolaki, zapewne ukrywaja tam Hemminga." />
+		<mission name="Koszmary" storageid="215" startvalue="0" endvalue="300" description="Liczba zabitych koszmarow: |STATE|/300." />
+		<mission name="Starcie z bossem Tromentor" storageid="10015" startvalue="1" endvalue="2" description="Komnata Tromentora znajduje sie w miejscu, gdzie bohaterowie walcza z koszmarami." />
+		<mission name="Hellspawny" storageid="216" startvalue="0" endvalue="300" description="Liczba zabitych hellspawnow: |STATE|/300." />
+		<mission name="Starcie z bossem Flameborn" storageid="10016" startvalue="1" endvalue="2" description="Pomiedzy wodospadami w dzungli znajduje sie zejscie do zapomnianych ruin. Zaleglo sie tam wiele Hellspawnow, Flameborn pewnie sie tam ukrywa." />
+		<mission name="Jaszczuroludzie" storageid="217" startvalue="0" endvalue="400" description="Liczba zabitych jaszczuroludzi: |STATE|/400." />
+		<mission name="Starcie z bossem Fazzrah" storageid="10017" startvalue="1" endvalue="2" description="Komnata przywodcy jaszczuroludzi - Fazzraha znajduje sie w ich wiosce na stepie." />
+		<mission name="Stampory" storageid="218" startvalue="0" endvalue="250" description="Liczba zabitych stamporow: |STATE|/250." />
+		<mission name="Starcie z bossem Tromphonyte" storageid="10018" startvalue="1" endvalue="2" description="Tromphonyte ukrywa sie w jaskiniach zasiedlonych przez Stampory." />
+		<mission name="Robaczki Brimstone" storageid="219" startvalue="0" endvalue="300" description="Liczba zabitych robaczkow: |STATE|/300." />
+		<mission name="Starcie z bossem Sulphur Scuttler" storageid="10019" startvalue="1" endvalue="2" description="Pod terenem skazonym kwasem radioaktywne Brimstone Bugi czuja sie doskonale, Sulphur Scuttler musi sie tam ukrywac." />
+		<mission name="Zmutowane Netoperki" storageid="220" startvalue="0" endvalue="300" description="Liczba zabitych netoperkow: |STATE|/300." />
+		<mission name="Starcie z bossem Bruise Payne" storageid="1002-" startvalue="1" endvalue="2" description="Skazone gory staly sie legowiskiem zmutowanych nietoperzy oraz szczurow, Bruise Payne ukrywa sie w skalach." />
+		<mission name="Hydry" storageid="221" startvalue="0" endvalue="350" description="Liczba zabitych wezy hydr: |STATE|/350." />
+		<mission name="Starcie z bossem The Many" storageid="10021" startvalue="1" endvalue="2" description="Na poludniu bagien w dzungli zamieszkalo kilka hydr, The Many przebywa tam najczesciej." />
+		<mission name="Morskie weze" storageid="222" startvalue="0" endvalue="400" description="Liczba zabitych wezy morskich: |STATE|/400." />
+		<mission name="Starcie z bossem Leviathan" storageid="10022" startvalue="1" endvalue="2" description="Dno wielkiego jeziora zasiedlone jest przez Morskie Weze, w jego glebinach mieszka legendarny Leviathan." />
+		<mission name="Behemoty" storageid="223" startvalue="0" endvalue="250" description="Liczba zabitych behemotow: |STATE|/250." />
+		<mission name="Starcie z bossem Stonecracker" storageid="10023" startvalue="1" endvalue="2" description="Grota olbrzymich Behemothow znajduje sie pod bagnami na zachodzie dzungli. Jesli nie brak ci odwagi mozesz poszukac tam Stonecrackera." />
+		<mission name="Serpent Spawn" storageid="224" startvalue="0" endvalue="350" description="Liczba zabitych serpentow: |STATE|/350." />
+		<mission name="Starcie z bossem The Noxious Spawn" storageid="10024" startvalue="1" endvalue="2" description="Na zachodzie dzunglii jedne ze wzgorzy zamieszkale sa przez Serpent Spawny, The Noxious Spawn mogl sie tam ukryc." />
+		<mission name="Meduzy" storageid="225" startvalue="0" endvalue="350" description="Liczba zabitych meduz: |STATE|/350." />
+		<mission name="Starcie z bossem Gorgo" storageid="10025" startvalue="1" endvalue="2" description="Grota przywodczyni Meduz - Gorgo znajduje sie w podziemnych ruinach, ktorch strzega jej podopieczne." />
+		<mission name="Piekielne Ogary" storageid="226" startvalue="0" endvalue="250" description="Liczba zabitych ogarow: |STATE|/250." />
+		<mission name="Starcie z bossem Kerberos" storageid="10026" startvalue="1" endvalue="2" description="Dostep do piekielnego Kerberosa strzezony jest przez Demony oraz Hellhoundy, jednak to tylko legendy..." />
+		<mission name="Upiorne Smoki" storageid="227" startvalue="0" endvalue="250" description="Liczba upiornych smokow: |STATE|/250." />
+		<mission name="Starcie z bossem Ethershreck" storageid="10027" startvalue="1" endvalue="2" description="Legowisko upiornych smokow znajduje sie w poziemiach pomiedzy pustynia a dzungla, Ethershreck takze sie tam zagniezdzil." />
+		<mission name="Drakeni" storageid="228" startvalue="0" endvalue="400" description="Liczba zabitych drakenow: |STATE|/400." />
+		<mission name="Starcie z bossem Paiz the Pauperizer" storageid="10028" startvalue="1" endvalue="2" description="Jesli uda ci sie przedostac przez wieze Drakenow, teleport poprowadzi cie do siedziby ich wladcy - Paiz the Pauperizera." />
+		<mission name="Niszczyciele" storageid="229" startvalue="0" endvalue="350" description="Liczba zabitych niszczycieli: |STATE|/350." />
+		<mission name="Starcie z bossem Bretzecutioner" storageid="10029" startvalue="1" endvalue="2" description="Sporo niszczycieli znajduje sie w podziemiach na wschodzie pustyni, mozesz rozejrzec sie tam w poszukiwaniu Bretzecutionera." />
+		<mission name="Nieumarle Smoki" storageid="230" startvalue="0" endvalue="200" description="Liczba zabitych nieumarlych smokow: |STATE|/200." />
+		<mission name="Starcie z bossem Zanekeph" storageid="10030" startvalue="1" endvalue="2" description="W podziemnych ruinach, do ktorych dojscia strzega Meduzy oraz Serpent Spawny znajduja sie nieumarle smoki broniace swojego przywodcy - Zanekepha." />
+		<mission name="Demoniczny Task" storageid="231" startvalue="0" endvalue="2000" description="Liczba zabitych demonow: |STATE|/2000." />
+		<mission name="NIC NIE WPISANE" storageid="10031" startvalue="1" endvalue="2" description="Teleport znajduje sie gdzies na mapie, znajdz go!" />
+	</quest>
+	<quest name="Arena" startstorageid="300" startstoragevalue="1">
+		<mission name="Pierwsza arena" storageid="301" startvalue="1" endvalue="2" description="Zabij:\nFrostfur\nBloodpaw\nBovinus\nAchad\nColerian the Barbarian\nThe Hairy One\nAxeitus Headbanger\nRocky\nCursed Gladiator\nOrcus the Cruel" />
+		<mission name="Druga arena" storageid="302" startvalue="1" endvalue="2" description="Zabij:\nAvalanche\nKreebosh the Exile\nThe Dark Dancer\nThe Hag\nSlim\nGrimgor Guteater\nDrasilla\nSpirit of Earth\nSpirit of Water\nSpirit of Fire" />
+		<mission name="Trzecia arena" storageid="303" startvalue="1" endvalue="2" description="Zabij:\nWebster\nDarakan the Executioner\nNorgle Glacierbeard\nThe Pit Lord\nSvoren the Mad\nThe Masked Marauder\nGnorre Chyllson\nFallen Mooh'Tah Master Ghar\nDeathbringer\nThe Obliverator" />
+		<mission name="Czwarta arena" storageid="304" startvalue="1" endvalue="2" description="Arena, poziom ekstremalny." />
+	</quest>
+	<quest name="Firestarter" startstorageid="11009" startvalue="1">
+		<mission name="Misja 1: Ogniste Poczatki" storageid="11009" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Hymel poprosil cie o spalenie ziola, ktore zostalo w jego chacie na polnocy miasta." />
+			<missionstate id="2" description="Ziolo poszlo z dymem, powiedz to Hymelowi." />
+			<missionstate id="3" description="Hymel zostawil Ci zapalniczke, ktora takze mozesz u niego kupic jak zgubisz." />
+		</mission>
+		<mission name="Misja 2: Maly Psikus" storageid="11010" startvalue="1" endvalue="3" >
+			<missionstate id="1" description="Hymel pomyslal, ze straznicy sie wkurza jak podpalisz konar drzewa w ich miejscowce" />
+			<missionstate id="2" description="Udalo sie i straznicy cie nie zauwazyli, zamelduj o tym" />
+			<missionstate id="3" description="W zamian za pomoc, Hymel wreczyl ci laske prawdziwego jaracza" />
+		</mission>
+		<mission name="Misja 3: Najarane miasto" storageid="11011" startvalue="1" endvalue="3" >
+			<missionstate id="1" description="Hymel opowiedzial ci o tym, jak kiedys z ziomkami zasiali 5 mocnych ziol, niestety nie pamieta gdzie, a wygladaja jak zwykle czerwone kwiatki. Znajdz te prawdziwe i spal je" />
+			<missionstate id="2" description="Cale miasto jest na haju, udalo ci sie spalic wszystkie kwiaty" />
+			<missionstate id="3" description="Hymel zrobil z ciebie prawdziwego piromana oraz dal Ci swoja bron podpalacza" />
+		</mission>
+	</quest>
+	<quest name="Sciezka Druida" startstorageid="11007" startvalue="1" >
+		<mission name="Krag Druidow" storageid="11007" startvalue="1" endvalue="5">
+			<missionstate id="1" description="Udalo ci sie poznac druida, jak mu pomozesz to napewno opowie ci o swojej kulturze." />
+			<missionstate id="2" description="Poznales pierwszego Druida, to twoj poczatek drogi do bycia druidem." />
+			<missionstate id="3" description="Matka natura wszystko obserwuje, cieszy ja to, ze pomogles juz dwom druidom." />
+			<missionstate id="4" description="Za swoje zaslugi u druidow Matka natura pozwolila Ci zaczepnac wody ze studni w wielkim drzewie." />
+			<missionstate id="5" description="Swoja dobrocia znacznie przysluzyles sie Naturze." />
+			<missionstate id="6" description="Zostales przyjety do kregu druidow i mozesz zebrac kwiat rosliny Griffinclaw, ktore rosnie w wielkim drzewie" />
+		</mission>
+		<mission name="Sezon na jelenie" storageid="11008" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Radagast poprosil zeby spalicz zapas drewna, ktory uzbierali Hunterzy. To pozwoli przetrwac duzej ilosci zwierzat w trakcie sezonu polowania." />
+			<missionstate id="2" description="Udalo ci sie podpalic zapasy drewna w wiosce Hunterow, jak najszybciej przekaz ta dobra nowine Radagastowi." />
+			<missionstate id="3" description="W zamian za pomoc Radagast dal ci Slingshot, oraz obiecal ze opowie ci o swoim kregu jak go zapytasz." />
+		</mission>
+		<mission name="Porwany Benek" storageid="11017" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Estep jest zrospaczony tym, ze orki porwaly jego wilka.(QUEST nieskonczony!!!!)" />
+			<missionstate id="2" description="Wilk juz jest bezpieczny." />
+			<missionstate id="3" description="Estep zostawil ci noz w podziece." />
+		</mission>
+	</quest>
+	<quest name="Przyjaciel Ariela" startstorageid="11000" startvalue="1">
+		<mission name="Pomoc dla Ariela" storageid="11000" startvalue="1" endvalue="4">
+			<missionstate id="1" description="Ariel poprosil cie o przyniesienie mu ulubionego kwiata jego przyjaciela czyli heaven blossoma. Mozna go spotkac u elfow." />
+			<missionstate id="2" description="Ariel poprosil cie o zlozenie ich na grobie jego przyjaciela, ktory znajduje sie w poblizu. W zamian obiecal ci opowiedzenie jego historii." />
+			<missionstate id="3" description="Udalo ci sie zlozyc kwiaty na grobie, przekaz ta wiesc Arielowi." />
+			<missionstate id="4" description="Ariel odwdzieczyl sie za pomoc elfickim lukiem, oraz obietnica opowiesci swojej historii gdy tylko go o to zapytasz." />
+		</mission>
+	</quest>
+	<quest name="Yalahari Quest" startstorageid="11002" startvalue="1">
+		<mission name="Misja 1: Milosc Ariela" storageid="11002" startvalue="1" endvalue="9">
+			<missionstate id="1" description="Ariel poprosil cie o zaniesienie zaproszenia na impreze do Madame Malkin, sprzedawczyni sukni dla magow z MirkoTown" />
+			<missionstate id="2" description="Madame nie zgodzila sie isc na impreze z arielem, idz przekazac mu ta smutna nowine" />
+			<missionstate id="3" description="Podobno przyjaciel Ariela, Old Postman moze wiedziec jak zaradzic na ta sytuacje" />
+			<missionstate id="4" description="Old postman wpadl na niecny plan wykradniecia eliksiru milosci, ktory wywarzyli podobno alchemicy w miescie magow na polnocy od MirkoTown, dal ci fiolke, w ktora uda ci sie napelnic troche eliksiru." />
+			<missionstate id="5" description="Udalo ci sie napelnic fiolke eliksirem, wroc do postmana po dalsze wskazowki" />
+			<missionstate id="6" description="Old Postman wspomnial, ze aby mikstura dzialala, potrzeba w niej rozpuscic wlos Ariela, napewno znajdzesz jakis w jego chacie. A pozniej podac Madame jako wino od niego." />
+			<missionstate id="7" description="Madame Malkin wypila eliksir, dzieki ktoremu powinna zakochac sie w Arielu" />
+			<missionstate id="8" description="Wino najwidoczniej zadzialalo, przekaz wiesci Arielowi" />
+			<missionstate id="9" description="Ariel ucieszyl sie i podal ci tajemne haslo powitalne: Aloha" />
+		</mission>
+	</quest>
+	<quest name="Podwodne miasto" startstorageid="23017" startvalue="1">
+		<mission name="Dostep do miasta" storageid="23017" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Quagon poprosil cie o zebranie perel z malz" />
+			<missionstate id="2" description="Oddaj wszystkie perly do Quagona" />
+			<missionstate id="3" description="Dzieki pomocy dla Quagona masz dostep do Podwodnego miasta" />
+		</mission>
+		<mission name="Stary Wrak" storageid="23021" startvalue="1" endvalue="3" >
+			<missionstate id="1" description="Kapitan Stonoga poprosil cie o wydostanie Medalu ze starego wraku" />
+			<missionstate id="2" description="Stonoga napewno we wdziecznosci przekaze wiesci do Posejdona" />
+		</mission>
+		<mission name="Nawiedzony cmentarz" storageid="23030" startvalue="1" endvalue="3" >
+			<missionstate id="1" description="Przegon wszystkie duchy, aby wkoncu ugoic dusze grabaza" />
+			<missionstate id="2" description="Udalo ci sie przegonic wszystkie duchy" />
+			<missionstate id="3" description="Grabaz byl ci bardzo wdzieczny za pomoc" />
+		</mission>
+	</quest>
+	<quest name="Trudne Poczatki" startstorageid="11019" startvalue="1">
+		<mission name="Rozeznanie" storageid="11019" startvalue="1" endvalue="12">
+			<missionstate id="1" description="Idz do komisarza Ryby i zapytaj o misje." />
+			<missionstate id="2" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi. Odwiedzeni sprzedawcy: 0/10." />
+			<missionstate id="3" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 1/10." />
+			<missionstate id="4" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 2/10." />
+			<missionstate id="5" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 3/10." />
+			<missionstate id="6" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 4/10." />
+			<missionstate id="7" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 5/10." />
+			<missionstate id="8" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 6/10." />
+			<missionstate id="9" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 7/10." />
+			<missionstate id="10" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 8/10." />
+			<missionstate id="11" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 9/10." />
+			<missionstate id="12" description="Przejdz sie po wszystkich sprzedawcach w mirkoTown i zobacz czy nie potrzebuja pomocy, po czym zamelduj o tym Komisarzowi.  Odwiedzeni sprzedawcy: 10/10." />
+		</mission>
+		<mission name="Dostawa Drewna" storageid="11030" startvalue="1" endvalue="6">
+			<missionstate id="1" description="Idz do knurowskiego portu dowiedziec sie co z dostawa drewna." />
+			<missionstate id="2" description="Rasiak jest pewny, ze drewno zostalo wyslane karawana, poprosil cie o zbadanie sprawy." />
+			<missionstate id="3" description="Przekaz Komisarzowi Rybie, ze Waski i jego mafia zabrali drewno." />
+			<missionstate id="4" description="Komisarz nakazal ci odzyskanie drewna, lecz ostrzegal przed mafia Waskiego." />
+			<missionstate id="5" description="Waski sie poddal i pozwoli Komisarzowi zabrac drewno, przekaz mu te dobbre wiesci." />
+			<missionstate id="6" description="Komisarz za dobrze wykonane zadanie wyslal cie do trollskyiego po nagrode." />
+		</mission>
+	</quest>
+</quests>

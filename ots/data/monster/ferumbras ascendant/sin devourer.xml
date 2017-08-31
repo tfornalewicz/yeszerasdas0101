@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sin Devourer" nameDescription="a sin devourer" experience="0" speed="180" race="undead">
+	<health now="20000" max="20000" />
+	<targetchange speed="0" chance="8" />
+	<look type="320" corpse="9915" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="3" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="lifedrain" interval="2000" range="7" target="1" chance="12" min="-60" max="-170">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+		<attack name="speed" interval="2000" chance="26" target="1" range="6" speedchange="-900" duration="15000">
+			<attribute key="areaEffect" value="sleep" />
+		</attack>
+		<attack name="sin devourer skill reducer" range="6" interval="2000" chance="22" />
+	</attacks>
+	<defenses armor="30" defense="39">
+	</defenses>
+	<immunities>
+		<immunity energy="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="The sunlight is so depressing." />
+		<voice sentence="Come with me, my child." />
+		<voice sentence="I've been in the shadow under your bed last night." />
+		<voice sentence="You never know what hides in the night." />
+		<voice sentence="I remember your face - and I know where you sleep." />
+		<voice sentence="Only the sweetest and cruelest dreams for you, my love." />
+	</voices>
+</monster>

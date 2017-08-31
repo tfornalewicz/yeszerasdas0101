@@ -1,0 +1,39 @@
+{
+  "launcher": {
+    "name": "LAUNCHER",
+    "builds": [
+    {
+    "os": "windows",
+    "architecture": "i386",
+    "url": "http://static.tibia.com/launcher/launcher-5486/package.json"
+    },
+    {
+    "os": "macos",
+    "architecture": "x86_64",
+    "url": "http://static.tibia.com/launcher/launcher-macos-5486/package.json"
+    }
+    ]
+  },
+  "packages": [
+  {
+    "name": "Tibia",
+    "directoryname": "Tibia",
+    "logolinktarget": "http://www.tibia.com/",
+    "installautomatically": true,
+    "builds": [
+      {
+      "os": "windows",
+      "architecture": "i386",
+      "url": "http://static.tibia.com/launcher/tibiaclient-11.45.5528/package.json"
+      },
+      {
+      "os": "macos",
+      "architecture": "x86_64",
+      "url": "http://static.tibia.com/launcher/tibiaclient-macos-11.45.5528/package.json"
+      }
+    ]
+  }
+  ],
+  "hardwaresurvey": "https://secure.tibia.com/services/hardwarereceiver.php",
+  "hints": "https://ssl-static-tibia.akamaized.net/hints.json"
+}

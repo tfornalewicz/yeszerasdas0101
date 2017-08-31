@@ -1,0 +1,11 @@
+<!--Q4 DRUID QUEST-->
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Malfurion" script="malfurion.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="432" head="0" body="120" legs="114" feet="79" addons="3" mount="401" />
+  <parameters>
+		<parameter key="message_greet" value="Pozdrawiam Cie |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Niech natura bedzie z toba!" />
+		<parameter key="message_walkaway" value="Czas na nikogo nie czeka!" />
+	</parameters>
+</npc>

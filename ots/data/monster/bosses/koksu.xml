@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Robin Hood" nameDescription="a robin hood" race="blood" experience="55000" speed="1100" manacost="0">
+	<health now="700000" max="700000" />
+	<look type="129" head="95" body="101" legs="78" feet="75" corpse="20419" />
+	<targetchange interval="2000" chance="25" />
+	<flags>
+        <flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="5" />
+		<flag staticattack="60" />
+		<flag runonhealth="699990" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-500" max="-200" />
+		<attack name="physical" interval="2000" chance="65" range="7" min="-300" max="-1300">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
+		<attack name="physical" interval="2000" chance="10" range="7" min="-1300" max="-2800">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
+		<attack name="ghastly dragon curse" interval="2000" chance="22" range="6" />
+		<attack name="speed" interval="2000" chance="15" radius="1" target="1" speedchange="-850" duration="30000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="45">
+		<defense name="speed" interval="2000" chance="25" speedchange="600" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="17" min="1000" max="5000">
+			<attribute key="areaEffect" value="sleep"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="2" min="10000" max="18000">
+			<attribute key="areaEffect" value="sleep"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="40"/>
+		<element icePercent="30"/>
+		<element firePercent="30"/>
+		<element earthPercent="30"/>
+		<element holyPercent="5"/>
+		<element physicalPercent="20"/>
+		<element energyPercent="30"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="3">
+		<summon name="glooth bandit" interval="1000" chance="20" max="3" />
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Haha, no zlap mnie!" />
+		<voice sentence="No co jest?" />
+		<voice sentence="Dzis wale kazdego!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="99" chance="40000" /><!-- gold coin -->
+		<item id="2152" countmax="50" chance="90800" /><!-- platinum coin-->
+		<item id="2152" countmax="50" chance="90800" /><!-- platinum coin-->
+		<item id="6500" countmax="4" chance="30000" /> <!-- Demonic Essence -->
+		<item id="8473" countmax="65" chance="80000" /> <!-- Ultimate Health Potion -->
+		<item id="7590" countmax="65" chance="80000" /> <!-- Great Mana Potions -->
+		<item id="8472" countmax="65" chance="80000" /> <!-- arr-->
+		<item id="6529" countmax="30" chance="50000" /> <!-- arr -->
+		<item id="7368" countmax="35" chance="60000" /> <!-- arr -->
+		<item id="7838" countmax="55" chance="60000" /> <!-- arr-->
+		<item id="18304" countmax="100" chance="90000" /> <!-- arrs -->
+		<item id="2546" countmax="55" chance="60000" /> <!-- Garr -->
+		<item id="2150" countmax="5" chance="6380" /><!-- small amethyst -->
+		<item id="2645" chance="380" /><!-- steel boots -->
+		<item id="8857" chance="20000" /><!-- silk -->
+		<item id="24638" chance="2000" /><!-- nightmare teddy -->
+		<item id="20138" chance="7000"/> <!-- pijawka -->
+		<item id="22608" chance="3000"/> <!-- nightmare horn -->
+		<item id="10514" chance="8000"/> <!-- scyzoryk 2 -->
+		<item id="24740" chance="4000"/> <!-- wolf backpack -->
+		<item id="8856" chance="500" /> <!-- Magma Coat -->
+		<item id="22612" chance="6000" /> <!-- Demonic Tapestry -->
+		<item id="22396" countmax="4" chance="20000" /> <!-- Cluster of Solace -->
+		<item id="10522" chance="3000"/> <!-- bp -->
+		<item id="11119" chance="3000"/> <!-- bp -->
+		<item id="18394" chance="7000"/> <!-- bp -->
+		<item id="10521" chance="3000"/> <!-- bp -->
+		<item id="2110" chance="1000"/> <!-- lalka -->
+		<item id="2644" chance="500"/> <!-- bunny -->
+		<item id="8855" chance="5000"/> <!-- bunny -->
+		<item id="13508" chance="3000"/> <!-- slug drug -->
+		<item id="13537" chance="3000"/> <!-- bag of apple slices -->
+		<item id="13538" chance="3000"/> <!-- bamboo leaves -->
+		<item id="13539" chance="3000"/> <!-- golden fir cone -->
+		<item id="5907" chance="3000"/> <!-- slingshot -->
+	</loot>
+</monster>

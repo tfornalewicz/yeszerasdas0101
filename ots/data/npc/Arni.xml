@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Arni" script="arni.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="131" head="114" body="114" legs="114" feet="114" addons="3" />
+  <parameters>
+		<parameter key="message_greet" value="Hej |PLAYERNAME|. Jak nie wiesz co za brama to ci moge sprzedac te {Informacje}" />
+		<parameter key="message_farewell" value="Do widzenia!" />
+		<parameter key="message_walkaway" value="Odmeldowuje sie..." />
+	</parameters>
+</npc>

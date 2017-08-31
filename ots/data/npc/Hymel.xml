@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hymel" script="hymel.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="159" head="94" body="77" legs="78" feet="79" corpse="20599" />
+  <parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Elo |PLAYERNAME|. Idziemy zajarac?" />
+		<parameter key="message_farewell" value="Z dymem!" />
+		<parameter key="message_walkaway" value="Z dymem!" />
+		<parameter key="shop_buyable" value="
+		Fire Bug,5468,500;" />
+	</parameters>
+</npc>

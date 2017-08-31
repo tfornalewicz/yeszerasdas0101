@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><npc name="Gwardzista narodowy" script="straznik.lua" walkinterval="0" floorchange="0" speed="400">
+<health now="1000" max="1000"/>
+<look type="268" head="0" body="0" legs="79" feet="76" addons="3"/>
+</npc>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Razzagorn" nameDescription="a razzagorn" race="blood" experience="30000" speed="485" manacost="200">
+	<health now="290000" max="290000" />
+	<look type="842" head="78" body="94" legs="34" feet="34" addons="1" corpse="25151" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="80" />
+	</flags>
+	<script>
+   <event name="Razzagorn"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-1250" />
+		<attack name="death" interval="2000" chance="20" length="10" spread="0" min="-500" max="-1000">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="fire" interval="1000" chance="25" range="7" radius="5" target="1" min="-300" max="-700">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="fire" interval="1000" chance="25" length="10" spread="3" min="-300" max="-1500">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" length="8" spread="3" min="-50" max="-800">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+	</attacks>
+	<defenses armor="160" defense="160">
+		<defense name="healing" interval="2000" chance="22" min="100" max="500">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="razzagorn summon" interval="6000" chance="23"/>
+	</defenses>
+	<elements>
+		<element holyPercent="10" />
+		<element firePercent="40" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	
+	<loot capacity="5000">
+	<item id="2148" countmax="200" chance="95000" /> <!-- gold coin -->
+	<item id="2152" countmax="25" chance="99000" /> <!-- platinum coin -->	
+	<item id="25172" chance="100000" /> <!-- silver token -->
+	<item id="2154" chance="8500" /> <!-- Yellow Gem -->
+	<item id="2153" chance="8500" /> <!-- Violet Gem -->
+	<item id="2156" chance="8500" /> <!-- Red Gem -->		
+	<item id="2181" chance="29000" /> <!-- Terra Rod -->		
+	<item id="7440" chance="700" /> <!-- Mastermind Potion -->
+	<item id="9971" chance="8000" /> <!-- Gold Ingot -->		
+	<item id="2462" chance="900" /> <!-- Devil Helmet -->	
+	<item id="6500" chance="5000" /> <!-- Demonic Essence -->		
+	<item id="7443" chance="9500" /> <!-- Bullseye Potion -->	
+        <item id="2158" chance="9500" /> <!-- Blue Gem -->
+	<item id="8473" countmax="10" chance="35000" /> <!-- Ultimate Health Potion -->
+	<item id="8472" countmax="10" chance="35000" /> <!-- Great Spirit Potion -->
+	<item id="7590" countmax="10" chance="45000" /> <!-- Great Mana Potion -->
+	<item id="2146" countmax="5" chance="18500" /> <!-- Small Sapphire -->
+	<item id="2149" countmax="5" chance="18500" /> <!-- Small Emerald -->
+	<item id="2145" countmax="5" chance="18500" /> <!-- Small Diamond -->
+	<item id="2150" countmax="5" chance="18500" /> <!-- Small Amethyst -->		
+	<item id="5022" countmax="5" chance="13500" /> <!-- Orichalcum Pearl -->		
+	<item id="24850" countmax="5" chance="78000" /> <!-- Opal -->
+	<item id="24849" countmax="5" chance="78000" /> <!-- Onyx Chip -->			
+	<item id="6558" countmax="5" chance="48500" /> <!-- Concentrated Demonic Blood -->
+	<item id="25523" chance="3550" /> <!-- rift crossbow -->
+        <item id="25522" chance="3550" /> <!-- rift bow -->
+        <item id="25418" chance="1550" /> <!-- maimer -->
+        <item id="25410" chance="1850" /> <!-- visage of the end days -->
+	<item id="25383" chance="9000" /> <!-- rift lance -->		
+	</loot>
+</monster>
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gnomerank" script="gnomerank.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="507" head="11" body="6" legs="11" feet="57" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Witaj, jesli masz juz wystarczaj¹ce doswiadczenie to mogê ciê awansowaæ! ..." />
+	</parameters>
+</npc>

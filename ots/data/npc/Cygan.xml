@@ -1,0 +1,7 @@
+<npc name="Cygan" script="amuletsrings.lua" walkinterval="25000" floorchange="0" access="3" speechbubble="1">
+    <health now="150" max="150"/>
+    <look type="430" head="97" body="1" legs="116" feet="114" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="AAAAAMUULETY ZA DWA ZLOTA, PIERSCIONECZKI DLA PIEKNYCH DZIEWCZYYYYN, WYMIANA {LIFE CRYSTAL}. Zapraszam do straganuuu!" />
+	</parameters>
+</npc>

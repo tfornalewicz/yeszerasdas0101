@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lecter" script="lecter.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="367" head="78" body="132" legs="117" feet="117" addons="0" />
+  <parameters>
+		<parameter key="message_greet" value="Witaj |PLAYERNAME|." />
+		<parameter key="message_farewell" value="tsssss!" />
+		<parameter key="message_walkaway" value="tsssss!" />
+	</parameters>
+</npc>

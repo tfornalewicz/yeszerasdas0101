@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Wieslaw Wszywka" script="wieslaw.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="130" head="114" body="87" legs="114" feet="0" addons="2" />
+	<parameters>
+		<parameter key="message_greet" value="Witaj |PLAYERNAME|. Masz moze puste {butelki} na wymiane?" />
+		<parameter key="message_farewell" value="No to spadaj." />
+		<parameter key="message_walkaway" value="Co za chamstwo, nawet sie nie pozegna..." />
+	</parameters>
+</npc>

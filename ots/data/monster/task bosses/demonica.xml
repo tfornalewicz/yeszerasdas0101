@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demonica" nameDescription="a demonica" race="fire" experience="16000" speed="490" manacost="0">
+	<health now="23200" max="23200" />
+	<look type="35" corpse="5995" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="70" attack="130" />
+		<attack name="manadrain" interval="2000" chance="13" range="7" min="0" max="-120" />
+		<attack name="fire" interval="4000" chance="24" radius="7" target="0" min="-450" max="-600">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="firefield" interval="2000" chance="14" range="7" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" length="7" spread="3" min="-380" max="-500">
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="energy strike" interval="2000" chance="10" range="1" min="-250" max="-300" />
+		<attack name="demon paralyze" interval="2000" chance="16" range="7"/>
+	</attacks>
+	<defenses armor="33" defense="43">
+		<defense name="healing" interval="2000" chance="25" min="180" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="12" speedchange="500" duration="2000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="10" />
+		<element deathPercent="30" />
+		<element energyPercent="50" />
+		<element earthPercent="40" />
+		<element icePercent="-20" />
+		<element holyPercent="-20" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="3">
+		<summon name="fire elemental" interval="2000" chance="20" />
+		<summon name="demon" interval="2000" chance="10" />
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your soul will be mine!" />
+		<voice sentence="MUHAHAHAHA!" />
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" />
+		<voice sentence="I SMELL FEEEEAAAAAR!" />
+		<voice sentence="Your resistance is futile!" />
+	</voices>
+	<loot>
+		<item id="2152" countmax="15" chance="100000" /><!-- platinum coin -->
+		<item id="2149" countmax="3" chance="26130" /><!-- small emerald -->
+		<item id="2432" chance="90990" /><!-- fire axe -->
+		<item id="2393" chance="33000" /><!-- giant sword -->
+		<item id="2520" chance="7400" /><!-- demon shield -->
+		<item id="5954" chance="19740" /><!-- demon horn -->
+		<item id="2470" chance="430" /><!-- golden legs -->
+		<item id="2514" chance="5800" /><!-- mastermind shield -->
+		<item id="2164" chance="76800" /><!-- might ring -->
+		<item id="2472" chance="1100" /><!-- magic plate armor -->
+		<item id="7393" chance="900" /><!-- demon trophy -->
+		<item id="7382" chance="1300" /><!-- demonrage sword -->
+		<item id="6500" chance="90920" /> <!-- demonic essence -->
+		<item id="2147" countmax="5" chance="26060" /> <!-- small ruby -->
+		<item id="2150" countmax="5" chance="26950" /> <!-- small amethyst -->
+		<item id="9970" countmax="5" chance="26230" /> <!-- small topaz -->
+		<item id="2156" chance="29020" /><!-- red gem -->
+		<item id="8851" chance="18111" /><!-- royal crossbow -->
+		<item id="8886" chance="8882" /><!-- molten plate -->
+		<item id="7431" chance="14000" /><!-- demonbone -->
+		<item id="2421" chance="13000" /><!-- thunder hammer -->
+	</loot>
+</monster>

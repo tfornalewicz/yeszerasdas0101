@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="Event" message="Ziemia zadrzala na polnoc od Mirko Town." />
+	<announce delay="360000" type="Event" message="Wulkan zasiedlony przez smoki wykazuje nadzwyczajna aktywnosc! Smiertelnicy nich nie opuszczaja miasta!" />
+	<announce delay="720000" type="Event" message="Demoniczna istota ujawnila sie na wulkanie! Tylko modlitwy moga nas teraz uratowac!" />
+	<singlespawn delay="720000" name="Gochabaal" x="5875" y="1332" z="4" />
+</raid>

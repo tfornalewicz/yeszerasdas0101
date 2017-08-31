@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Duch Wykopotsa" nameDescription="duch wykopotsa" race="undead" experience="100" speed="1000" manacost="0">
+	<health now="1500" max="1500"/>
+	<look type="319" corpse="12631"/>
+	<targetchange interval="2000" chance="30"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+      	  <flag rewardboss="1" />
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="20"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="90"/>
+		<attack name="effect" interval="2000" chance="12" length="7" spread="3"/>
+		<attack name="poisoncondition" interval="2000" chance="20" radius="6" target="0" min="-1100" max="-2200">
+		<attribute key="areaEffect" value="insects"/>
+    	</attack>
+		<attack name="death" interval="2000" chance="12" length="6" spread="2" min="-100" max="-250">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="drunk" interval="2000" chance="20" radius="8" target="0" duration="5000">
+			<attribute key="areaEffect" value="stun"/>
+		</attack>
+		<attack name="effect" interval="2000" chance="14" length="6" spread="3">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		<attack name="outfit" interval="2000" chance="20" range="7" monster="rat" duration="4000"/>
+		<attack name="outfit" interval="2000" chance="20" range="7" monster="rotworm" duration="4000"/>
+		<attack name="outfit" interval="2000" chance="20" range="7" monster="snake" duration="4000"/>
+		<attack name="manadrain" interval="2000" chance="10" radius="8" target="0" min="-50" max="-100">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="25" min="200" max="300">
+			<attribute key="areaEffect" value="sleep"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="1" min="2000" max="3000">
+			<attribute key="areaEffect" value="sleep"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="2" min="3000" max="8000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="invisible" interval="2000" chance="2" duration="2000">
+			<attribute key="areaEffect" value="poff"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="50"/>
+		<element icePercent="30"/>
+		<element firePercent="30"/>
+		<element earthPercent="30"/>
+		<element holyPercent="5"/>
+		<element physicalPercent="25"/>
+		<element energyPercent="30"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Jestem duchem, ktory doprowadzi do upadku tego swiata.."/>
+		<voice sentence="Ten swiat upadnie, jesli mnie nie pokonacie.."/>
+		<voice sentence="Nikt mnie nie pokona.."/>
+		<voice sentence="Nie oddam mapy.."/>
+		<voice sentence="Poki zyje, nie wyjdzie wam zaden ots.."/>
+		<voice sentence="Mapa? Po moim trupie.."/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="25" chance="100000"/> <!--Gold-->			
+		<item id="6569" countmax="20" chance="50000"/> <!--candy -->
+		<item id="5710" chance="50000"/> <!--light shovel -->
+		<item id="7731" chance="50000" unique="1"/> <!--elvenhair rope -->
+		<item id="10512" chance="50000"/> <!-- scyzoryk 1 -->
+		<item id="20620" chance="50000"/> <!-- zaoan box -->
+		<item id="9005" countmax="10" chance="50000"/> <!-- yummi worms -->
+		<item id="2688" countmax="10" chance="50000"/> <!-- candy cane -->
+		<item id="13508" chance="50000"/> <!-- slug drug -->
+		<item id="13537" chance="50000"/> <!-- bag of apple slices -->
+		<item id="13538" chance="50000"/> <!-- bamboo leaves -->
+		<item id="13539" chance="50000"/> <!-- golden fir cone -->
+		<item id="5907" chance="50000"/> <!-- slingshot -->
+		<item id="20138" chance="50000"/> <!-- pijawka -->
+		<item id="10522" chance="50000"/> <!-- bp -->
+		<item id="11119" chance="50000"/> <!-- bp -->
+		<item id="18394" chance="50000"/> <!-- bp -->
+		<item id="10521" chance="50000"/> <!-- bp -->
+		<item id="2110" chance="50000"/> <!-- lalka -->
+		<item id="2644" chance="50000"/> <!-- bunny -->
+	</loot>
+</monster>

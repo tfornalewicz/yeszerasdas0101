@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="[SOLID] Kitz" script="solid_kitz.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="512" head="114" body="49" legs="125" feet="0" addons="1" />
+  <parameters>
+		<parameter key="message_greet" value="Hej |PLAYERNAME|. Jak nie wiesz co za brama to ci moge sprzedac te {Informacje}" />
+		<parameter key="message_farewell" value="Do widzenia!" />
+		<parameter key="message_walkaway" value="Odmeldowuje sie..." />
+	</parameters>
+</npc>

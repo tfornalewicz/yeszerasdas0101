@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vile Grandmaster" nameDescription="a vile grandmaster" race="blood" experience="1500" speed="280" manacost="390">
+	<health now="1700" max="1700" />
+	<look type="268" head="97" body="0" legs="95" feet="94" addons="1" corpse="24679" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="physical" interval="1000" chance="8" radius="6" target="0" min="-75" max="-125">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+	<attack name="melee" interval="2000" min="0" max="-260" />
+		
+	<attack name="bleedcondition" interval="2000" chance="17" target="1" radius="1" min="-150" max="-225">
+			<attribute key="shootEffect" value="throwingknife" />
+			<attribute key="areaEffect" value="redspark" />
+	</attack>
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="4000" chance="15" min="220" max="280">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		
+		<immunity invisible="1" />
+	</immunities>
+	<elements>
+		<element earthPercent="25" />
+		<element firePercent="25" />
+		<element holyPercent="50" />
+		<element physicalPercent="20" />
+		<element icePercent="10" />
+		<element energyPercent="25" />
+	</elements>
+	<voices interval="2000" chance="13">
+		<voice sentence="I will end this now!" />
+		<voice sentence="I've seen orcs though than you!" />
+		<voice sentence="Your gods won't help you!" />
+		<voice sentence="Is that the best, they can throw at me?" />
+		<voice sentence="You'll make a fine trophy!" />
+		<voice sentence="Let's have a fight!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="175" chance="100000" />	<!-- gold coin -->		
+		<item id="2152" countmax="2" chance="74680" />	<!-- platinum coin -->			
+		<item id="2666" countmax="2" chance="9760" />	<!-- Meat -->		
+		<item id="7591" chance="6900" />	<!-- Great Health Potion -->				
+		<item id="12466" chance="7550" />	<!-- Scroll of Heroic Deeds -->
+		<item id="12406" chance="2480" />	<!-- Small Notebook -->
+		<item id="2147" chance="3550" />	<!-- Small Ruby -->
+		<item id="2146" chance="3540" />	<!-- Small Sapphire -->
+		<item id="2121" chance="5120" />	<!-- Wedding Ring -->
+		<item id="5911" chance="1960" />	<!-- Red Piece of Cloth -->		
+		<item id="2391" chance="2040" />	<!-- war hammer -->		
+		<item id="2487" chance="1010" />	<!-- Crown Armor -->
+		<item id="2392" chance="660" />		<!-- Fire Sword -->
+		<item id="2491" chance="760" />		<!-- Crown Helmet -->
+		<item id="2519" chance="300" />		<!-- Crown Shield -->
+		<item id="2488" chance="770" />		<!-- Crown Legs -->			
+		<item id="2171" chance="430" />		<!-- Platinum Amulet  -->		
+		<item id="2114" chance="190" />		<!-- piggy bank -->
+	</loot>
+</monster>

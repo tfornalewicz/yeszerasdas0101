@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Glooth Brigand" nameDescription="a glooth brigand" race="blood" experience="1900" speed="270" manacost="490">
+	<health now="2400" max="2400" />
+	<look type="137" head="114" body="114" legs="110" feet="114" corpse="24257" />
+	<targetchange interval="5000" chance="5"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="25"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="60"/>
+		<attack name="physical" interval="2000" chance="20" range="7" min="-0" max="-210">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="23" defense="31">
+	<defense name="healing" interval="2000" chance="10" min="200" max="250">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-5"/>
+		<element icePercent="10"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="20"/>
+		<element energyPercent="25"/>
+		<element earthPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity poison="1"/>
+	</immunities>
+	<voices interval="2000" chance="7">
+		
+		<voice sentence="Toks utat." />
+		<voice sentence="Youh ah trak!" />
+		<voice sentence="Let da mashing begin!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="49000"/>	
+		<item id="2152" countmax="3" chance="80000"/>
+		<item id="23574" chance="9870"/> <!-- Gloot bag -->		
+		<item id="23514" chance="2500"/> <!-- Glooth Sandwich-->
+		<item id="23517" chance="2600"/> <!-- Gloot stek -->
+		<item id="7590" countmax="3" chance="3500"/> <!-- Great Mana Potion -->
+		<item id="8472" countmax="3" chance="3400"/> <!--  Great Spirit Potion -->
+		<item id="23551" chance="1000"/> <!-- Glooth Axe -->
+		<item id="23529" chance="1000"/> <!-- Glooth Spear -->
+		<item id="8473" chance="3400"/> <!-- Ultimate Health Potion -->
+		<item id="23554" chance="1000"/> <!-- Glooth Amulet -->
+		<item id="23550" chance="1000"/> <!-- Glooth Blade -->
+		<item id="23549" chance="1000"/> <!-- Glooth Club  -->		
+		<item id="2155" chance="20"/> <!-- Green Gem  -->
+		<item id="7903" chance="700"/> <!-- Terra Hood  -->		
+		<item id="7885" chance="500"/> <!-- Terra Legs  -->
+		<item id="7884" chance="600"/> <!-- Terra Mantle  -->
+		<item id="23536" chance="640"/> <!-- Rubber Cap  -->
+		<item id="23538" chance="160"/> <!-- Heat core  -->
+		<item id="7887" chance="400"/> <!-- terra amulet  -->
+		<item id="7386" chance="140"/> <!-- mercenary sword  -->
+		<item id="7419" chance="100"/> <!-- dreaded cleaver  -->
+		<item id="7412" chance="50"/> <!-- butcher's axe  -->
+	</loot>
+</monster>

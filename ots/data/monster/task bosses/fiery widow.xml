@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fiery Widow" nameDescription="a fiery widow" race="fire" experience="3450" speed="220" manacost="0">
+	<health now="2850" max="2850" />
+	<look type="347" corpse="11310" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="60" fire="30" />
+		<attack name="firefield" interval="2000" chance="10" range="7" target="0" radius="3">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" radius="3" target="0" min="-40" max="-170">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="fire" interval="2000" chance="24" range="7" min="-60" max="-170">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" target="0" length="8" spread="0" min="-92" max="-350">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="hellfire fighter soulfire" interval="2000" chance="15" />
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="10" min="70" max="100">
+			<attribute key="areaEffect" value="whitenote" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="820" duration="5000">
+			<attribute key="areaEffect" value="yellownote" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="50" />
+		<element holyPercent="5" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity death="1" />
+		<immunity earth="1" />
+		<immunity lifedrain="1" />
+		<immunity drunk="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
+		<item id="2152" countmax="7" chance="76000" /><!-- gold coin -->
+		<item id="2147" countmax="4" chance="68000" /><!-- small ruby -->
+		<item id="2796" chance="3208" /><!-- green mushroom -->
+		<item id="11329" chance="55000" /><!-- wailing widow's necklace -->
+		<item id="11323" chance="25010" /><!-- zaoan halberd -->
+		<item id="10553" chance="95070" /><!-- fiery hearts -->
+		<item id="2187" chance="29450" /><!-- wand of inferno -->
+		<item id="2392" chance="18140" /><!-- fire sword -->
+		<item id="7890" chance="35300" /><!-- magma amulet -->
+		<item id="7891" chance="14600" /><!-- magma boots -->
+		<item id="2528" chance="9500" /><!-- tower shield -->
+	</loot>
+</monster>

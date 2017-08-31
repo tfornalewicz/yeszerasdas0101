@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Krzysztof Kolumb" script="KrzysztofKolumbStep.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="132" head="19" body="10" legs="38" feet="95" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Witaj, wracamy stad?" />
+		<parameter key="message_farewell" value="Do zobaczenia!" />
+		<parameter key="message_walkaway" value="Zegnaj." />
+	</parameters>
+</npc>

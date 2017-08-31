@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Plagirath" nameDescription="a plagirath" race="blood" experience="30000" speed="445" manacost="200">
+	<health now="290000" max="290000" />
+	<look type="862" head="84" body="80" legs="79" feet="80" addons="1" corpse="25151" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="80" />
+	</flags>
+	<script>
+   <event name="Plagirath"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-1350" />
+		<attack name="death" interval="2000" chance="50" radius="4" target="1" min="-150" max="-350">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="poison" interval="2000" chance="20" length="10" spread="3" min="-700" max="-800">
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="poison" interval="2000" chance="25" length="8" spread="0" min="-450" max="-900">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
+		<attack name="poison" interval="8000" chance="45" radius="8" target="1" min="-1300" max="-1500">
+			<attribute key="areaEffect" value="bigplants" />
+		</attack>
+	</attacks>
+	<defenses armor="160" defense="160">
+		<defense name="healing" interval="3000" chance="15" min="150" max="600">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<summons maxSummons="4">
+		<summon name="Disgusting Ooze" interval="90000" chance="75" max="4" />
+		<summon name="Disgusting Ooze" interval="90000" chance="65" max="4" />
+		<summon name="Disgusting Ooze" interval="90000" chance="65" max="4" />
+		<summon name="Disgusting Ooze" interval="90000" chance="45" max="4" />
+	</summons>
+	<immunities>		
+		<immunity poison="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	
+	<elements>
+		<element icePercent="10" />
+		<element firePercent="-25" />
+		<element energyPercent="-10" />	
+	</elements>
+	
+	<voices interval="2000" chance="7">
+		<voice sentence="BOOOOOOOMMM!!!!!" yell="1" />
+		<voice sentence="WITHER AND DIE" />
+		<voice sentence="DEATH AND DECAY" />
+		<voice sentence="I CAN SENSE YOUR BODIES ROOTING!" />
+	</voices>
+
+	<loot capacity="5000">
+	<item id="2148" countmax="200" chance="9000" /> <!-- gold coin -->
+	<item id="2152" countmax="25" chance="95000" /> <!-- platinum coin -->	
+	<item id="25172" chance="100000" /> <!-- silver token -->
+
+	<item id="25415" chance="600" /> <!-- Plague Bite -->	
+	<item id="25523" chance="3000" /> <!-- Rift Crossbow -->
+	<item id="25522" chance="3000" /> <!-- Rift Bow -->
+	<item id="7887" subtype="200" chance="33500" /> <!-- Terra Amulet -->	    
+	<item id="8901" chance="7700" /> <!-- Spellbook of Warding -->
+	<item id="11306" chance="3500" /> <!-- Sai -->
+	<item id="7386" chance="1000" /> <!-- Mercenary Sword -->
+	<item id="18411" chance="6500" /> <!-- muck rod -->
+	<item id="7885" chance="16000" /> <!-- terra legs -->
+
+	<item id="2153" chance="16500" /> <!-- violet Gem -->
+	<item id="2155" chance="16500" /> <!-- Green Gem -->
+	<item id="2158" chance="16500" /> <!-- blue Gem -->
+	<item id="2154" chance="16500" /> <!-- yellow Gem -->	
+
+	<item id="2214" chance="6500" /> <!-- Ring of Healing -->		
+	<item id="6500" chance="7000" /> <!-- Demonic Essence -->
+	<item id="7632" chance="9000" /> <!-- Giant Shimmering Pearl -->
+
+	<item id="8473" countmax="10" chance="40500" /> <!-- Ultimate Health Potion -->
+	<item id="7590" countmax="10" chance="40500" /> <!-- Great Mana Potion -->
+	<item id="8472" countmax="10" chance="40500" /> <!-- Great Spirit Potion -->
+		
+	<item id="2147" countmax="5" chance="19500" /> <!-- Small Ruby -->
+	<item id="2149" countmax="5" chance="19500" /> <!-- Small Emerald -->
+	<item id="2150" countmax="5" chance="19500" /> <!-- Small Amethyst -->
+	<item id="2145" countmax="5" chance="19500" /> <!-- Small diamond -->
+
+	<item id="18420" countmax="6" chance="15000" /> <!-- Red Crystal Fragment -->		
+	<item id="18421" countmax="6" chance="15000" /> <!-- Green Crystal Fragment -->		
+	<item id="18419" countmax="5" chance="15000" /> <!-- Cyan Crystal Fragment -->
+	    
+	</loot>
+</monster>

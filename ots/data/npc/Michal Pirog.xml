@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Michal Pirog" script="addon.lua" walkinterval="2500" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="154" head="114" body="91" legs="91" feet="114" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Witaj, sprzedaje {dodatki} do outfitow." />
+		<parameter key="message_farewell" value="Uwazaj na siebie!" />
+		<parameter key="message_walkaway" value="Powodzenia!" />
+	</parameters>
+</npc>

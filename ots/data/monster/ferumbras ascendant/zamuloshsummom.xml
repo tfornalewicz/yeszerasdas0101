@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zammulosh" nameDescription="a zamulosh" race="blood" experience="5" speed="525" manacost="200">
+	<health now="20000" max="20000" />
+	<look type="862" head="17" body="12" legs="73" feet="92" addons="0" corpse="8062" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="60" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="90" />
+		<attack name="lifedrain" interval="2000" chance="12" length="8" spread="0" min="-200" max="-1000">
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>		
+		<attack name="lifedrain" interval="2000" chance="10" radius="6" target="0" min="-100" max="-450">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="death" interval="2000" chance="7" length="8" spread="3" min="-100" max="-550">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+	</attacks>
+	<defenses armor="160" defense="160">
+		<defense name="invisible" interval="1000" chance="23" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	
+	<voices interval="2000" chance="30">
+		<voice sentence="I AM ZAMULOSH!" yell="1" />
+	</voices>
+	
+</monster>

@@ -1,0 +1,8 @@
+<npc name="Shivganesh" script="shivganesh.lua" walkinterval="25000" floorchange="0" access="3" speechbubble="1">
+    <health now="150" max="150"/>
+    <look type="146" head="96" body="57" legs="0" feet="97" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Czesc ptysiu! Sprawdz moje nowe receptury i skladniki, wpisujac 'trade'." />
+        <parameter key="keywords" value="help;quest;sacrific;sweet;bar of chocolate" />
+	</parameters>
+</npc>

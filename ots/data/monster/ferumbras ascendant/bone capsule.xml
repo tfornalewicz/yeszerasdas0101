@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bone Capsule" nameDescription="a bone capsule" race="undead" experience="0" speed="0" manacost="0">
+	<health now="70000" max="70000" />
+	<look type="863" />
+	<targetchange interval="4000" chance="50" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<defenses armor="70" defense="70">
+	</defenses>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+</monster>

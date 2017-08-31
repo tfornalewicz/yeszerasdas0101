@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Owsiak" script="default.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100" />
+	<look type="153" head="38" body="94" legs="0" feet="0" addons="3" />
+	<parameters>
+		<parameter key="message_greet" value="Siemano siemanko, |PLAYERNAME| ja jestem Jurek i sprzedaje zabezpieczenie przed zbyt ostrym imprezowaniem! Napisz 'trade' to zobaczysz o co mi chodzi!" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="amulet of loss,2173,30000;" />
+	</parameters>	
+</npc>

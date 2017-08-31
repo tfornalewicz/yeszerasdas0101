@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tarbaz" nameDescription="a tarbaz" race="blood" experience="80000" speed="495" manacost="200">
+	<health now="295000" max="295000" />
+	<look type="842" head="57" body="20" legs="57" feet="57" addons="3" corpse="25151" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="80" />
+	</flags>
+	<script>
+   <event name="Tarbaz"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" skill="200" attack="290" />
+		<attack name="death" interval="2000" chance="50" range="7" radius="4" target="1" min="-150" max="-350">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="20" length="10" spread="3" min="-650" max="-850">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="25" length="10" spread="0" min="-100" max="-1300">
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="physical" interval="2000" chance="25" length="8" spread="0" min="-100" max="-600">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+	</attacks>
+	<defenses armor="160" defense="160">
+		
+		<defense name="healing" interval="2000" chance="5" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="tarbaz teleport" interval="120000" chance="80"/>	
+	</defenses>
+	<voices interval="2000" chance="7">
+		<voice sentence="You are a failure" />		
+	</voices>
+	<immunities>
+	
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	
+	<loot capacity="5000">
+		<item id="2148" countmax="200" chance="9000" /> <!-- gold coin -->
+		<item id="2152" countmax="30" chance="95000" /> <!-- platinum coin -->	
+		<item id="25172" chance="100000" /> <!-- silver token -->
+		
+		<item id="2154" chance="15500" /> <!-- Yellow Gem -->
+		<item id="2153" chance="15500" /> <!-- Violet Gem -->	
+		<item id="2156" chance="15500" /> <!-- Red Gem -->
+		<item id="2155" chance="15500" /> <!-- Green Gem -->
+		<item id="2158" chance="15500" /> <!-- Blue Gem -->
+	
+		<item id="25413" chance="600" /> <!-- Shroud of Despair -->		
+		<item id="25383" chance="3000" /> <!-- Rift Lance-->		
+		<item id="25523" chance="3000" /> <!-- Rift Crossbow-->			
+		<item id="8910" chance="34000" /> <!-- Underworld Rod -->	
+		<item id="7897" chance="15000" /> <!-- Glacier Robe -->	
+		<item id="7896" chance="15000" /> <!-- Glacier Kilt -->			
+		<item id="7888" subtype="200" chance="45000" /> <!-- Glacier Amulet -->	
+		<item id="2438" chance="6000" /> <!--  Epee -->
+		<item id="2438" chance="600" /> <!--  demonbone amulet -->
+		<item id="2438" chance="3000" /> <!--  rift bow -->
+		<item id="2438" chance="3000" /> <!--  rift shield -->
+		<item id="2438" chance="600" /> <!--  chaos mace -->
+		<item id="2438" chance="16000" /> <!--  heavy mace -->
+		<item id="2438" chance="800" /> <!--  abyss hammer -->
+
+		<item id="7632" chance="15500" /> <!-- Giant Shimmering Pearl -->			
+		<item id="6500" chance="10500" /> <!-- Demonic Essence -->			
+		<item id="2167" chance="26500" /> <!-- Energy Ring -->
+
+		<item id="18414" countmax="3" chance="9500" /> <!-- Violet Crystal Shard -->	
+		<item id="18413" countmax="3" chance="9500" /> <!-- Blue Crystal Shard -->
+		<item id="18415" countmax="3" chance="9500" /> <!-- Green Crystal Shard -->
+		<item id="9970" countmax="5" chance="9500" /> <!-- Small Topaz -->
+		<item id="2149" countmax="5" chance="9900" /> <!-- Small Emerald -->
+		<item id="2145" countmax="5" chance="9700" /> <!-- Small Diamond -->
+		<item id="2150" countmax="5" chance="9500" /> <!-- Small Amethyst -->
+		<item id="2147" countmax="5" chance="9500" /> <!-- Small ruby -->
+		
+		<item id="8473" countmax="10" chance="35000" /> <!-- Ultimate Health Potion -->		
+		<item id="8472" countmax="10" chance="45000" /> <!-- Great Spirit Potion -->
+		<item id="7590" countmax="10" chance="95000" /> <!-- Great Mana Potion -->	
+		<item id="6558" countmax="5" chance="45000" /> <!-- Concentrated Demonic Blood -->
+			 
+	</loot>
+</monster>

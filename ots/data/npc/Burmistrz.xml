@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Burmistrz" script="burmistrz.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="140" head="0" body="91" legs="0" feet="113" addons="3" />
+  <parameters>
+		<parameter key="message_greet" value="Witaj |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Milego dnia ci zycze!" />
+		<parameter key="message_walkaway" value="Straze! Wyprowadzic!" />
+	</parameters>
+</npc>

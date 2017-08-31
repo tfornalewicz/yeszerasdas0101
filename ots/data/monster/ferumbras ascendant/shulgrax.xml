@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shulgrax" nameDescription="a shulgrax" race="blood" experience="80000" speed="485" manacost="200">
+	<health now="290000" max="290000" />
+	<look type="842" head="19" body="118" legs="21" feet="21" addons="1" corpse="25151" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="80" />
+	</flags>
+	<script>
+   <event name="Shulgrax"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-1500" />
+		<attack name="death" interval="2000" chance="50" range="7" radius="4" target="1" min="-150" max="-350">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="20" length="10" spread="3" min="-700" max="-900">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="25" length="10" spread="0" min="-100" max="-1300">
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="physical" interval="2000" chance="16" length="8" spread="0" min="-100" max="-600">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+
+	</attacks>
+	<defenses armor="160" defense="160">
+		<defense name="healing" interval="2000" chance="16" min="100" max="600">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="shulgrax summon" interval="90000" chance="100"/>
+	</defenses>
+
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	
+	<loot capacity="5000">
+		<item id="2148" countmax="200" chance="9000" /> <!-- gold coin -->
+		<item id="2152" countmax="30" chance="99000" /> <!-- platinum coin -->
+		<item id="25172" chance="100000" /> <!-- silver token -->
+
+		<item id="2154" chance="14500" /> <!-- Yellow Gem -->
+		<item id="2153" chance="14500" /> <!-- Violet Gem -->
+		<item id="2156" chance="14500" /> <!-- Red Gem -->
+		<item id="2155" chance="14500" /> <!-- Green Gem -->
+		<item id="2158" chance="14500" /> <!-- Blue Gem -->
+
+		<item id="25412" chance="600" /> <!-- Treader of Torment -->
+		<item id="25382" chance="2000" /> <!-- Rift Shield -->
+		<item id="25383" chance="3000" /> <!-- Rift Lance-->
+		<item id="25523" chance="2500" /> <!-- Rift Crossbow -->
+		<item id="25522" chance="2500" /> <!-- Rift Bow -->
+		<item id="7451" chance="5000" /> <!-- Shadow Sceptre -->
+		<item id="20108" chance="9000" /> <!-- Pair of Iron Fists -->
+		<item id="7889" subtype="200" chance="35000" /> <!-- Lightning Pendant -->		
+		<item id="7895" chance="7000" /> <!-- Lightning Legs -->
+		<item id="7416" chance="3800" /> <!-- Bloody Edge -->
+		<item id="7419" chance="3900" /> <!-- Dreaded Cleaver -->
+		<item id="8920" chance="9000" /> <!-- wand of starstorm -->
+		<item id="8910" chance="9000" /> <!-- underworld rod -->
+		<item id="7427" chance="900" /> <!-- chaos mace -->
+		<item id="14333" chance="900" /> <!-- demonbone amulet -->
+		<item id="2520" chance="1900" /> <!-- demon shield -->
+		<item id="2472" chance="900" /> <!-- mpa -->
+		<item id="6553" chance="900" /> <!-- ruthless axe -->
+
+		<item id="6500" chance="10000" /> <!-- Demonic Essence -->
+		<item id="6300" chance="10000" /> <!-- Death Ring -->
+
+		<item id="8473" countmax="10" chance="39500" /> <!-- Ultimate Health Potion -->
+		<item id="8472" countmax="10" chance="39500" /> <!-- Great Spirit Potion -->
+		<item id="7590" countmax="10" chance="39500" /> <!-- Great Mana Potion -->
+		<item id="6558" countmax="5" chance="45000" /> <!-- Concentrated Demonic Blood -->
+
+		<item id="9970" countmax="5" chance="16000" /> <!-- Small Topaz -->
+		<item id="2149" countmax="5" chance="16000" /> <!-- Small Emerald -->
+		<item id="2147" countmax="5" chance="16000" /> <!-- Small Ruby -->
+		<item id="2145" countmax="5" chance="16000" /> <!-- Small Diamond -->
+		<item id="24850" countmax="5" chance="37000" /> <!-- Opal -->
+		<item id="24849" countmax="5" chance="37000" /> <!-- Onyx Chip -->	
+				 
+	</loot>
+</monster>
+

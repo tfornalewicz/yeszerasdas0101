@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghazbaran" nameDescription="a ghazbaran" race="undead" experience="15000" speed="450" manacost="0">
+	<health now="60000" max="60000" />
+	<look type="12" head="0" body="123" legs="97" feet="94" corpse="6068" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+        <flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="3500" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="290" attack="200"/>
+		<attack name="ghazbaran paralyze" interval="2000" chance="12" range="7"/>
+		<attack name="ice" interval="2000" chance="12" radius="7" target="0" min="-430" max="-800">
+			<attribute key="areaEffect" value="bigplants"/>
+		</attack>
+		<attack name="manadrain" interval="2000" chance="9" radius="7" target="0" min="-535" max="-965">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="death" interval="2000" chance="11" length="8" spread="0" min="-510" max="-800">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="melee" interval="3000" chance="17" range="7" radius="1" target="1" min="-120" max="-2000">
+			<attribute key="shootEffect" value="whirlwindsword" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="65">
+		<defense name="healing" interval="2000" chance="19" min="440" max="6400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="5000" chance="10" min="1900" max="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="9" speedchange="1000" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="30" />
+		<element deathPercent="10" />
+		<element holyPercent="-5" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+		<immunity ice="1" />
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="4">
+		<summon name="Deathslicer" interval="4000" chance="20" />
+	</summons>
+	<voices interval="5000" chance="30">
+		<voice sentence="COME AND GIVE ME SOME AMUSEMENT" />
+		<voice sentence="IS THAT THE BEST YOU HAVE TO OFFER?" yell="1" />
+		<voice sentence="I AM GHAZBARAN OF THE TRIANGLE... AND I AM HERE TO CHALLENGE YOU ALL." yell="1" />
+		<voice sentence="FLAWLESS VICTORY!" yell="1" />
+	</voices>
+	<loot>
+		<item id="6500" chance="100000" /><!-- demonic essence -->
+		<item id="2152" countmax="69" chance="100000" /><!-- platinum coin -->
+		<item id="5954" countmax="2" chance="33333" /><!-- demon horn -->
+		<item id="2145" countmax="5" chance="25000" /><!-- small diamond -->
+		<item id="6300" chance="25000" /><!-- death ring -->
+		<item id="8472" chance="25000" /><!-- great spirit potion -->
+		<item id="8904" chance="25000" /><!-- spellscroll of prophecies -->
+		<item id="8473" chance="25000" /><!-- ultimate health potion -->
+		<item id="2143" countmax="15" chance="25000" /><!-- white pearl -->
+		<item id="7591" chance="20000" /><!-- great health potion -->
+		<item id="2214" chance="20000" /><!-- ring of healing -->
+		<item id="2149" countmax="10" chance="25000" /><!-- small emerald -->
+		<item id="1984" chance="20000" /><!-- blue tome -->
+		<item id="7590" chance="20000" /><!-- great mana potion -->
+		<item id="2155" chance="20000" /><!-- green gem -->
+		<item id="2178" chance="20000" /><!-- mind stone -->
+		<item id="7493" chance="20000" /><!-- orb -->
+		<item id="2150" countmax="17" chance="25000" /><!-- small amethyst -->
+		<item id="2146" countmax="10" chance="25000" /><!-- small sapphire -->
+		<item id="8901" chance="20000" /><!-- spellbook of warding -->
+		<item id="2179" chance="20000" /><!-- gold ring -->
+		<item id="8918" chance="20000" /><!-- spellbook of dark mysteries -->
+		<item id="7405" chance="16666" /><!-- havoc blade -->
+		<item id="8884" chance="16666" /><!-- oceanborn leviathan armor -->
+		<item id="8903" chance="16666" /><!-- spellbook of lost souls -->
+		<item id="2158" chance="14285" /><!-- blue gem -->
+		<item id="7433" chance="14285" /><!-- ravenwing -->
+		<item id="6553" chance="14285" /><!-- ruthless axe -->
+		<item id="7368" countmax="44" chance="12500" /><!-- assassin star -->
+		<item id="2520" chance="12500" /><!-- demon shield -->
+		<item id="2177" chance="12500" /><!-- life crystal -->
+		<item id="2164" chance="12500" /><!-- might ring -->
+		<item id="2165" chance="12500" /><!-- stealth ring -->
+		<item id="2151" countmax="7" chance="12500" /><!-- talon -->
+		<item id="2112" chance="12500" /><!-- teddy bear -->
+		<item id="2144" countmax="14" chance="11111" /><!-- black pearl -->
+		<item id="8902" chance="11111" /><!-- spellbook of mind control -->
+		<item id="2174" chance="11111" /><!-- strange symbol -->
+		<item id="2447" chance="11111" /><!-- twin axe -->
+		<item id="2124" chance="8333" /><!-- crystal ring -->
+		<item id="8887" chance="8333" /><!-- frozen plate -->
+		<item id="7896" chance="8333" /><!-- glacier kilt -->
+		<item id="2466" chance="8333" /><!-- golden armor -->
+		<item id="2646" chance="8333" /><!-- golden boots -->
+		<item id="2472" chance="8333" /><!-- magic plate armor -->
+		<item id="2514" chance="2000" /><!-- mms -->
+		<item id="2393" chance="4000" /><!-- giant sword -->
+		<item id="7455" chance="8000" /><!-- mythrill axe -->
+		<item id="2470" chance="7000" /><!-- golden legs -->
+		<item id="7454" chance="6500" /><!-- glorious axe -->
+		<item id="8870" chance="9000" /><!-- crystalline armor -->
+		<item id="8866" chance="9000" /><!-- robe of the ice queen -->
+	</loot>
+</monster>

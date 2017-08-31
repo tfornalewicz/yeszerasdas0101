@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mazoran" nameDescription="a mazoran" race="blood" experience="30000" speed="435" manacost="200">
+	<health now="390000" max="390000" />
+	<look type="842" head="77" body="99" legs="97" feet="96" addons="2" corpse="25151" />
+	
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag staticattack="80" />
+	</flags>
+	<script>
+   <event name="Mazoran"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="-200" max="-1550" />
+		<attack name="death" interval="2000" chance="50" range="7" radius="4" target="1" min="-150" max="-350">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="20" length="10" spread="3" min="-100" max="-1700">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="25" length="10" spread="0" min="-100" max="-1300">
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="physical" interval="2000" chance="16" length="8" spread="0" min="-100" max="-600">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+	</attacks>
+	<defenses armor="160" defense="160">
+		<defense name="healing" interval="2000" chance="8" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="mazoran summon" interval="120000" chance="100"/>
+	</defenses>
+	<immunities>
+		<immunity fire="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	
+	<loot capacity="5000">
+	<item id="2148" countmax="100" chance="9000" /> <!-- gold coin -->
+	<item id="2152" countmax="25" chance="99000" /> <!-- platinum coin -->	
+	<item id="25172" chance="100000" /> <!-- silver token -->
+	
+	<item id="25416" chance="1200" /> <!-- Impaler of the Igniter -->	
+	<item id="25522" chance="3500" /> <!-- Rift Bow -->
+	<item id="25523" chance="3500" /> <!-- Rift CrossBow -->		
+	<item id="7894" chance="7500" /> <!-- Magma Legs -->				
+	<item id="7899" chance="7500" /> <!-- Magma Coat -->		
+	<item id="7890" subtype="200" chance="45000" /> <!-- Magma Amulet -->		 
+	<item id="2432" chance="45000" /> <!-- Fire Axe -->
+	<item id="2542" chance="700" /> <!-- tempest shield -->
+	<item id="25383" chance="4000" /> <!-- rift lance
+	<item id="7403" chance="900" /> <!-- berserker --> -->
+	<item id="2427" chance="3000" /> <!-- guardian halberd -->
+	<item id="7382" chance="600" /> <!-- demonrage sword -->
+	<item id="18409" chance="5000" /> <!-- wand of everblazing-->
+
+	<item id="2158" chance="16500" /> <!-- Blue Gem -->
+	<item id="2155" chance="16500" /> <!-- Green Gem -->
+	<item id="2158" chance="16500" /> <!-- blue Gem -->
+	<item id="2154" chance="16500" /> <!-- yellow Gem -->		 
+	<item id="9971" chance="16500" /> <!-- Gold Ingot -->
+	<item id="6500" chance="11500" /> <!-- Demonic Essence -->
+
+	<item id="2167" chance="9500" /> <!-- Energy Ring -->
+
+	<item id="18420" countmax="6" chance="19500" /> <!-- Red Crystal Fragment -->		
+	<item id="18421" countmax="6" chance="19500" /> <!-- Green Crystal Fragment -->
+	<item id="18419" countmax="5" chance="19500" /> <!-- Cyan Crystal Fragment -->
+
+	<item id="9970" countmax="5" chance="19500" /> <!-- Small topaz -->
+	<item id="2146" countmax="5" chance="19500" /> <!-- Small Sapphire -->	
+	<item id="2150" countmax="5" chance="19500" /> <!-- Small Amethyst -->
+
+	<item id="8473" countmax="10" chance="45000" /> <!-- Ultimate Health Potion -->		
+ 	<item id="7590" countmax="10" chance="45000" /> <!-- Great Mana Potion -->
+	<item id="8472" countmax="10" chance="45000" /> <!-- Great Spirit Potion -->
+
+	   	
+	</loot>
+</monster>
+

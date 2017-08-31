@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="vexclaw" nameDescription="vexclaw" race="blood" experience="6300" speed="260" manacost="0">
+	<health now="8500" max="8500"/>
+	<look type="854" corpse="25432"/>
+	<targetchange interval="4000" chance="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-500"/>
+		<attack name="fire" interval="2000" chance="13" range="7" radius="4" target="1" min="-350" max="-450">
+			<attribute key="shootEffect" value="burstarrow"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="16" range="7" radius="5" target="1" min="-150" max="-350">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="11" range="7" radius="5" target="0" min="-400" max="-500">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="ice" interval="2000" chance="13" length="8" spread="0" min="-650" max="-900">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="manadrain" interval="2000" chance="11" length="8" spread="0" min="-0" max="-250">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="18" min="150" max="500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="40"/>
+		<element holyPercent="-10"/>
+		<element firePercent="75"/>
+		<element energyPercent="10"/>
+		<element icePercent="-5"/>
+		<element physicalPercent="5"/>
+		<element deathPercent="1"/>
+	</elements>
+	<voices interval="2000" chance="10">
+		<voice sentence="Weakness must be culled!"/>
+		<voice sentence="Power is miiiiine!"/>
+		<voice sentence="You should consider bargaining for your life!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="200" chance="99900"/><!-- gold coin -->
+		<item id="2152" countmax="9" chance="99900"/><!-- platinum coin -->
+		<item id="2795" countmax="6" chance="20280"/><!-- fire mushroom -->
+		<item id="8473" countmax="5" chance="20000"/><!-- ultimate health potion -->
+		<item id="7590" countmax="5" chance="25005"/><!-- great mana potion -->
+		<item id="8472" countmax="5" chance="25005"/><!-- great spirit potion -->
+		<item id="25866" chance="649"/><!-- vexclaw talon -->		
+		<item id="6500" chance="19830" />						<!-- Demonic Essence -->			
+		<item id="2150" countmax="5" chance="9770" />					<!-- Small Amethyst -->		
+		<item id="2147" countmax="5" chance="9890" />					<!-- Small Rubbie -->
+		<item id="2149" countmax="5" chance="9770" />					<!-- Small Emerald -->		
+		<item id="9970" countmax="5" chance="9960" />					<!-- Small Topaz -->	
+		<item id="7368" countmax="5" chance="5263"/>	<!-- assassin star -->
+		<item id="2156" chance="5350"/>				<!-- red gem -->
+		<item id="2154" chance="4930"/>			<!--  Yellow Gem  -->		
+		<item id="2432" chance="4050"/><!-- fire axe -->
+		<item id="2393" chance="2200"/><!-- giant sword -->
+		<item id="2462" chance="1224"/><!-- devil helmet -->
+		<item id="2171" chance="650"/><!-- platinum amulet -->
+		<item id="2396" chance="5000"/><!-- ice rapier -->
+		<item id="2520" chance="670"/><!-- demon shield -->
+		<item id="2164" chance="2500"/><!-- might ring -->
+		<item id="2167" chance="2410"/><!-- energy ring -->
+		<item id="2214" chance="1350"/><!-- ring of healing -->
+		<item id="2470" chance="360"/><!-- golden legs -->
+		<item id="2514" chance="570"/><!-- mastermind shield -->
+		<item id="25523" chance="360"/><!-- rift crossbow -->
+		<item id="25522" chance="400"/><!-- rift bow -->
+		<item id="25382" chance="610"/><!-- rift shield -->
+		<item id="25383" chance="830"/><!-- rift lance -->
+		<item id="2472" chance="140"/><!-- magic plate armor -->
+		<item id="7382" chance="90"/><!-- demonrage sword -->
+	</loot>
+</monster>
+

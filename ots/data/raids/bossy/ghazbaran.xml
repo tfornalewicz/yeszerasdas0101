@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Antyczne zlo przebudza sie w glebokich kopalniach Sybiru." />
+	<announce delay="600000" type="Event" message="Demoniczne istoty zaczynaja pojawiac sie w najglebszych kopalniach Sybiru." />
+	<announce delay="1200000" type="Event" message="Demoniczny mistrz ujawnil sie w kopalniach Sybiru." />
+<!--Single Spawns-->
+	<singlespawn delay="1200000" name="Ghazbaran" x="6436" y="1767" z="12" />
+<!--Area Spawns-->
+	<areaspawn delay="800000" fromx="6413" fromy="1749" fromz="12" tox="6452" toy="1776" toz="12">
+		<monster name="Deathslicer" amount="12" />
+	</areaspawn>
+
+	<areaspawn delay="900000" fromx="6413" fromy="1749" fromz="12" tox="6452" toy="1776" toz="12">
+		<monster name="Juggernaut" amount="5" />
+	</areaspawn>
+
+	<areaspawn delay="1000000" fromx="6413" fromy="1749" fromz="12" tox="6452" toy="1776" toz="12">
+		<monster name="Fury" amount="8" />
+	</areaspawn>
+
+	<areaspawn delay="1100000" fromx="6413" fromy="1749" fromz="12" tox="6452" toy="1776" toz="12">
+		<monster name="Demon" amount="6" />
+	</areaspawn>
+</raid>

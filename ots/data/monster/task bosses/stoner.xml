@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stoner" nameDescription="a stoner" race="undead" experience="3500" speed="200" manacost="0">
+	<health now="2250" max="2250" />
+	<look type="95" corpse="6027" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1"  />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="30" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="55" attack="20" />
+		<attack name="physical" interval="2000" chance="18" range="7" target="1" radius="2" min="-20" max="-120">
+			<attribute key="shootEffect" value="largerock"/>
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="earth" interval="4000" chance="40" range="7" target="1" min="-72" max="-150">
+			<attribute key="shootEffect" value="smallearth" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="physical" interval="2000" chance="39" range="7" target="1" min="0" max="-60">
+			<attribute key="shootEffect" value="smallstone" />
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="15" max="55">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40" />
+		<element deathPercent="1" />
+		<element firePercent="-10" />
+	</elements>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity earth="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Harrrr Harrrr!" />
+		<voice sentence="Stone sweet stone." />
+		<voice sentence="Feel my claws, softskin." />
+		<voice sentence="Chhhhhrrrrk!" />
+		<voice sentence="There is a stone in your shoe!" />
+	</voices>
+	<loot>
+		<item id="2152" countmax="5" chance="88000" /><!-- gold coin -->
+		<item id="2513" chance="56000" /><!-- battle shield -->
+		<item id="11343" chance="16300" /><!-- piece of marble rock -->
+		<item id="1294" countmax="30" chance="35800" /><!-- small stone -->
+		<item id="18419" chance="33000" /><!-- cyan crystal fragment -->
+		<item id="18415" chance="35000" /><!-- green crystal shard -->
+		<item id="2457" chance="85000" /><!-- steel helmet -->
+		<item id="9970" countmax="2" chance="26500" /><!-- small topaz -->
+		<item id="11227" chance="15190" /><!-- shiny stone -->
+		<item id="11195" chance="91730" /><!-- stone wing -->
+		<item id="5880" chance="15000" /><!-- iron ore -->
+	</loot>
+</monster>

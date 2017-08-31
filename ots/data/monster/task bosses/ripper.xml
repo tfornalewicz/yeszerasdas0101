@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ripper" nameDescription="a ripper" race="undead" experience="3500" speed="150" manacost="0">
+	<health now="1900" max="1900" />
+	<look type="300" corpse="8955" />
+	<targetchange interval="2000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-120" />
+		<attack name="death" interval="2000" chance="12" length="8" spread="0" min="-0" max="-130">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="physical" interval="2000" chance="12" length="7" spread="3" min="0" max="-100">
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="death" interval="2000" chance="10" radius="4" target="0" min="-25" max="-80">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="25">
+		<defense name="healing" interval="2000" chance="11" min="60" max="100">
+			<attribute key="areaEffect" value="redspark" />
+		</defense>
+		<defense name="speed" interval="2000" chance="10" speedchange="540" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="-10" />
+		<element earthPercent="40" />
+		<element icePercent="65" />
+		<element holyPercent="-10" />
+		<element physicalPercent="20" />
+		<element deathPercent="80" />
+		<element firePercent="-10" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Death!" />
+		<voice sentence="Come a little closer!" />
+		<voice sentence="The end is near!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="270" chance="82350" />	<!-- gold coin -->
+		<item id="2230" chance="49000" />				<!-- bone -->
+		<item id="3976" countmax="12" chance="25325" />	<!-- worm -->
+		<item id="2159" chance="8210" />					<!-- scarab coin -->
+		<item id="2457" chance="46000" />					<!-- steel helmet -->
+		<item id="2532" chance="24220" />					<!-- ancient shield -->
+		<item id="2381" chance="37500" />					<!-- halberd -->
+		<item id="2205" chance="39000" />					<!-- life ring -->
+		<item id="2227" chance="2000" />					<!-- rotten meat -->
+		<item id="11200" chance="1000" />					<!-- half-digested piece of meat -->
+		<item id="13535" chance="430" />					<!-- fist on a stick -->
+		<item id="2144" countmax="3" chance="59600" />				<!-- black pearl -->
+		<item id="2188" chance="79050" />			<!-- wand of decay -->
+	</loot>
+</monster>

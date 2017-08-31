@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jarek Koozniar" script="default.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+<health now="185" max="185"/>
+<look type="131" head="115" body="76" legs="37" feet="116" addons="3"/>
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="message_greet" value="No dzien dobry, jak tam? Wszyscy zdrowi w domu? Aby sie ze mna wymieniac, napisz {wymiana}."/>
+<parameter key="message_farewall" value="Narazie!"/>
+<parameter key="message_walkaway" value="Nie to nie, nareczka!"/>
+<parameter key="shop_sellable" value="
+crowbar,2416,1;
+club,2382,1;
+staff,2401,1;
+mace,2398,8;
+iron hammer,2422,9;
+battle hammer,2417,20;
+morning star,2394,50;
+clerical mace,2423,30;
+silver mace,2424,270;
+war hammer,2391,90;
+thunder hammer, 2421,450;
+knife,2403,1;
+combat knife,2404,1;
+dagger,2379,1;
+silver dagger,2402,1;
+rapier,2384,5;
+short sword,2406,3;
+machete,2420,6;
+sabre,2385,6;
+sword,2376,7;
+carlin sword,2395,5;
+katana,2412,8;
+longsword,2397,8;
+poison dagger,2411,5;
+scimitar,2419,10;
+spike sword,2383,25;
+broadsword,2413,10;
+serpent sword,2409,15;
+two handed sword,2377,60;
+fire sword,2392,335;
+bright sword,2407,280;
+giant sword,2393,100;
+magic sword,2400,350;
+warlord sword,2408,360;
+magic longsword,2390,460;
+ice rapier,2396,250;
+sickle,2405,1;
+hand axe,2380,5;
+axe,2386,6;
+golden sickle,2418,10;
+hatchet,2388,7;
+orcish axe,2428,12;
+battle axe,2378,40;
+barbarian axe,2429,30;
+knight axe,2430,50;
+obsidian lance,2425,50;
+double axe,2387,70;
+halberd,2381,50;
+fire axe,2432,280;
+naginata,2426,80;
+guardian halberd,2427,120;
+dragon lance,2414,90;
+stonecutter axe,2431,320;
+great axe,2415,300;
+bow,2456,15;
+crossbow,2455,20;
+spear,2389,2;
+throwing knife,2410,2;
+throwing star,2399,2;
+wooden shield,2512,1;
+studded shield,2526,2;
+brass shield,2511,15;
+plate shield,2510,25;
+black shield,2529,5;
+copper shield,2530,10;
+steel shield,2509,30;
+ornamented shield,2524,45;
+viking shield,2531,35;
+battle shield,2513,50;
+dark shield,2521,60;
+dwarven shield,2525,55;
+ancient shield,2532,49;
+rose shield,2527,49;
+beholder shield,2518,79;
+griffin shield,2533,59;
+guardian shield,2515,150;
+dragon shield,2516,115;
+shield of honour,2517,115;
+tower shield,2528,90;
+crown shield,2519,109;
+vampire shield, 2534,119;
+demon shield,2520,130;
+mastermind shield,2514,550;
+great shield,2522,480;
+blessed shield,2523,650;
+leather helmet,2461,1;
+chain helmet,2458,4;
+studded helmet,2482,2;
+brass helmet,2460,8;
+legion helmet,2480,8;
+viking helmet,2473,12;
+iron helmet,2459,30;
+soldier helmet,2481,15;
+dark helmet,2490,40;
+steel helmet,2457,60;
+strange helmet,2479,55;
+devil helmet,2462,80;
+crown helmet,2491,70;
+warrior helmet,2475,75;
+demon helmet,2493,95;
+winged helmet,2474,320;
+horned helmet,2496,155;
+golden helmet,2471,420;
+doublet,2485,1;
+leather armor,2467,2;
+studded armor,2484,18;
+chain armor,2464,30;
+brass armor,2465,50;
+scale armor,2483,75;
+plate armor,2463,110;
+dark armor,2489,130;
+knight armor,2476,140;
+noble armor,2486,140;
+crown armor,2487,210;
+golden armor,2466,580;
+dragon scale mail,2492,280;
+demon armor,2494,195;
+magic plate armor,2472,720;
+studded legs,2468,15;
+brass shield,2511,15;
+knight legs,2477,130;
+crown legs,2488,60;
+golden legs,2470,120;
+demon legs,2495,84;
+dragon scale legs,2469,180;" />
+
+</parameters>
+</npc>

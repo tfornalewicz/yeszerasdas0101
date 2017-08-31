@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Straznik Walter" script="Walter, The Guard.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="131" head="19" body="19" legs="38" feet="38" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="NIECH ZYJE KROL!" />
+		<parameter key="message_farewell" value="NIECH ZYJE KROL!" />
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;" />
+		<parameter key="keyword_reply1" value="Moim zajeciem jest obrona miasta." />
+
+	</parameters>
+</npc>

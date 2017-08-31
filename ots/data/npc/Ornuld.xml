@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ornuld" script="ornuld.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="128" head="0" body="103" legs="4" feet="94" addons="3" />
+  <parameters>
+		<parameter key="message_greet" value="Czego tutaj szukasz |PLAYERNAME|?" />
+		<parameter key="message_farewell" value="Zegnaj przybyszu!" />
+		<parameter key="message_walkaway" value="Nie daj sie zjesc w dzungli." />
+	</parameters>
+</npc>

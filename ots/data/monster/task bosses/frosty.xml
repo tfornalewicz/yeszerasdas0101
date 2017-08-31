@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frosty" nameDescription="a frosty" race="undead" experience="7100" speed="290" manacost="0">
+	<health now="6800" max="6800" />
+	<look type="248" corpse="7091" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="200" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="78" attack="60" />
+		<attack name="lifedrain" interval="2000" chance="15" target="0" length="8" spread="4" min="-175" max="-380">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="ice" interval="2000" chance="12" radius="5" target="0" min="-50" max="-450">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="ice" interval="2000" chance="14" target="1" radius="3" min="-10" max="-240">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="frost dragon paralyze 1" interval="2000" chance="15"/>
+	</attacks>
+	<defenses armor="29" defense="37">
+		<defense name="healing" interval="2000" chance="16" min="150" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="12" speedchange="360" duration="3000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="7" />
+		<element deathPercent="10" />
+	</elements>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity fire="1" />
+		<immunity ice="1" />
+		<immunity earth="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="YOU WILL FREEZE!" yell="1" />
+		<voice sentence="ZCHHHHH!" yell="1" />
+		<voice sentence="I am so cool" />
+		<voice sentence="Chill out!." />
+	</voices>
+	<loot>
+		<item id="2152" countmax="12" chance="95000" /><!-- plat coin -->
+		<item id="10578" chance="95500" /><!-- frosty heart -->
+		<item id="7902" chance="76500" /><!-- glacier mask -->
+		<item id="7839" countmax="40" chance="87020"/><!-- shiver arrow -->
+		<item id="2146" countmax="4" chance="35400" /><!-- small sapphire -->
+		<item id="7441" countmax="3" chance="64000" /><!-- ice cube -->
+		<item id="2167" chance="25000" /><!-- energy ring -->
+		<item id="7290" chance="95550" /><!-- shard -->
+		<item id="2177" chance="75580" /><!-- life crystal -->
+		<item id="2492" chance="910" /><!-- dragon scale mail -->
+		<item id="2479" chance="450" /><!-- strange helmet -->
+		<item id="2498" chance="2200" /><!-- royal helmet -->
+		<item id="2528" chance="32000" /><!-- tower shield -->
+		<item id="7402" chance="9000" /><!-- dragon slayer -->
+		<item id="2396" chance="35000" /><!-- ice rapier -->
+	</loot>
+</monster>

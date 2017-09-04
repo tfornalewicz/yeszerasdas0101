@@ -3512,3 +3512,8 @@
 [ 00:41:34,576 ] Connected to Gameserver  "127.0.0.1" "Tibianka"
 [ 00:41:35,581 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
 [ 00:41:35,647 ] News query failed: "Account name or password is not correct."
+[ 01:26:07,674 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 01:26:08,058 ] Asset loading complete
+[ 08:38:44,380 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 08:38:45,154 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 08:38:49,208 ] Asset loading complete
